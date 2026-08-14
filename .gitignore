@@ -7,14 +7,9 @@
 !.github/
 !.github/**
 
-# 2. Node & Next.js Web Application
+# 2. Node & Web Application Builds
 node_modules/
-.next/
-.env*.local
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+*.log*
 tsconfig.tsbuildinfo
 
 # 3. Presentation & Book Build Artifacts

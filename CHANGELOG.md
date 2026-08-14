@@ -6,13 +6,15 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ---
 
-### 2606.1.0-bs (2026-06-17) - Beta Supported Baseline (Dev Standards & Unified Governance)
+### 2606.1.0-bs (2026-08-14) - Beta Supported Baseline (Modular SRD Architecture & Unified Governance)
 
-**Initial Beta baseline release executing `PROJ-TODO-01` through `PROJ-TODO-04`. Formally established the JLDN Unified Developer Standards, Agent Governance architecture (`.agents/AGENTS.md`), Generational Hub (`.dev/2606/`), and automated GitHub Actions CI Quality & Link Validator (`.github/`).**
+**Official Beta baseline release executing `DOCS-TODO-01` through `DOCS-TODO-13` and `PROJ-TODO-01` through `PROJ-TODO-08`. Formally established the JLDN Unified Developer Standards, Agent Governance architecture, modular `docs/2606/` SRD ruleset, 14 Infinite Archive conversion matrices, and automated CI Quality & Link Validator.**
 
 #### Added
-- **`.agents/AGENTS.md`:** Codified authoritative 3-part agent governance configuration covering workspace execution rules, presentation layer protocols, and ruleset/web architecture protocols.
-- **`.dev/` Generational Hub:** Established Generation 2606 hub containing master roadmap (`ROADMAP.md`), unified task registers (`backlog.json`), ideas registers (`ideas.json`), and chapter blueprints (`book-maps/`).
-- **`.github/` CI/CD Pipeline:** Created GitHub Actions workflow (`.github/workflows/lint.yml`) and automated Python audit validator (`.github/scripts/validate_workspace.py`) to verify markdown links, micro-anchors, and backlog schemas.
-- **Repository Governance:** Added standardized `.gitattributes` (LF line endings), `.gitignore` policies, `CONTRIBUTING.md`, `LICENSE.md`, and `CHANGELOG.md`.
-- **Core Ruleset Baseline:** Stabilized Books I through IV and Appendices covering the math-less d10 resolution engine, Tag-Permission Framework, 12-Die Approach arrays, and the Infinite Archive cross-genre conversion matrices.
+- **Modular `docs/2606/` SRD Architecture (`DOCS-TODO-06`):** Modularized Books I through V (Setting, Laws of Reality, Wayfarer's Path, Adversaries, Appendices) into dedicated directories with `multiverse.md` master entry point and navigation matrix.
+- **The Infinite Archive Supplements (`DOCS-TODO-03`, `DOCS-TODO-07`):** Codified 14 unabridged cross-system conversion supplements under `docs/2606/supplements/` with standardized JLDN JSON frontmatter metadata.
+- **Micro-Anchoring & Deep Red Team Audits (`DOCS-TODO-08`–`DOCS-TODO-13`):** Added 226+ HTML line-level micro-anchors across all markdown files and executed stress-test audits across all 5 books.
+- **`.agents/AGENTS.md` & Governance (`PROJ-TODO-01`, `PROJ-TODO-03`):** Codified authoritative 3-part agent governance configuration, `CONTRIBUTING.md`, `LICENSE.md`, and unified `[DOMAIN]-[TYPE]-[NN]` taxonomy.
+- **`.dev/` Generational Hub (`PROJ-TODO-04`, `PROJ-TODO-06`, `PROJ-TODO-07`):** Established Generation 2606 hub containing master roadmap, unified backlogs, ideas register, and chapter blueprint maps.
+- **`.github/` CI/CD Pipeline (`PROJ-TODO-02`, `PROJ-TODO-08`):** Implemented automated Python validator (`validate_workspace.py`) auditing JSON schemas, frontmatter linkages, micro-anchors, and markdown links.
+- **Monorepo Package Configuration (`PROJ-TODO-05`):** Standardized `pnpm-workspace.yaml` with internal web toolchain package configuration.

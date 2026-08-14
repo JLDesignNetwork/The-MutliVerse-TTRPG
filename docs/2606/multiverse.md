@@ -28,7 +28,7 @@ This cataclysm is known as **The Shattering**. The singular universe violently d
 
 Every piece of rift-tech, every dimensional drive, and every anomalous artifact is actually *archaeo-tech*—dangerous, reverse-engineered fragments from this fallen civilization. You and your fellow Wayfarers are not gods traversing the planes; you are scavengers playing with matches in a powder keg. Every jump between realities is a violent trespassing across a cosmic wound.
 
-<a id="zero-point-station"></a>
+<a id="zero-point-station"></a><a id="the-hub"></a>
 ### Zero-Point Station (The Hub)
 
 > "The smell hits you first. Ozone, blood, and burnt circuitry. Then the noise—a million dialects of survival echoing off non-Euclidean walls. They call it a station. I call it a life raft."
@@ -40,7 +40,7 @@ The Hub is a massive, sprawling, non-Euclidean construct residing entirely outsi
 
 It is a desperate, bustling trade port and the last refuge of the displaced. In the neon-lit bazaars of the lower wards, a cyberpunk hacker from a dystopian metropolis might barter stolen subroutines for a magical grimoire peddled by a medieval wizard. It is a place of infinite possibility and infinite danger, where the only universal currency is survival.
 
-<a id="factions-and-the-rift-guard"></a>
+<a id="factions-and-the-rift-guard"></a><a id="the-architects"></a><a id="the-rift-guard"></a>
 ### Factions and The Rift-Guard
 
 > "They don't care if a million innocent souls are consumed by the Void. They only care that the math balances. If pruning your reality keeps the rest of the sector stable, you won't even see the firing squad that pulls the trigger."
@@ -52,9 +52,11 @@ A consortium of [System: Power Scale 4] entities, The Architects survived The Sh
 
 To The Architects, containment is the only priority. Morality is a mathematical error. If a dimension becomes too anomalous or threatens the integrity of the Hub, they will willingly "prune" it—erasing the entire timeline to protect the remaining Multiverse.
 
+<a id="rift-guard-enforcement"></a>
 #### The Rift-Guard
 The Architects' enforcers are the **Rift-Guard**. Drawn from a thousand realities, they are the dimensional police force. Heavy-handed and dogmatic, they patrol the Hub and priority dimensions, hunting down anomalies, enforcing quarantines, and neutralizing threats to dimensional stability.
 
+<a id="allegiance-and-the-wayfarers"></a>
 #### Allegiance and The Wayfarers
 You are a Wayfarer, displaced by the chaotic currents of the Multiverse. Your allegiance is more than a tag on your sheet; it is a philosophical stance on how to survive the end of everything:
 
@@ -62,7 +64,7 @@ You are a Wayfarer, displaced by the chaotic currents of the Multiverse. Your al
 * **The Fugitives (Syndicates & Free-Runners):** Do you rebel against the pruning? Do you scavenge archaeo-tech to protect your own slice of reality, constantly dodging the Rift-Guard and surviving in the shadows?
 * **The Unaligned:** Do you walk the razor's edge, selling your skills to the highest bidder in the bustling markets of Zero-Point Station?
 
-<a id="the-grand-purpose"></a>
+<a id="the-grand-purpose"></a><a id="engine-of-play"></a>
 ### The Grand Purpose
 
 > "We aren't heroes. We are scavengers with a very specific set of skills, trying to make sense of a jigsaw puzzle where half the pieces are on fire and the other half are actively trying to kill us."
@@ -82,7 +84,7 @@ The Grand Purpose of your journey is defined by three pillars:
 
 ## Chapter 2: The Laws of Reality
 
-<a id="core-resolution"></a>
+<a id="core-resolution"></a><a id="the-dice-pool"></a><a id="successes-and-failures"></a>
 ### Core Resolution & The Dice Pool
 
 > "The difference between life and death in the Hub isn't caliber. It's leverage. You don't fight fair against a cyber-troll; you drop the building on him."
@@ -97,6 +99,7 @@ When attempting a risky or opposed action, you will roll a pool of d10s (10-side
 * **Critical Success (10):** A 10 is a critical success. It counts as a success **and explodes**, allowing you to immediately roll an additional d10 to add to your pool.
 * **Critical Failure (1):** A 1 on a die is a critical failure.
 
+<a id="resolving-actions"></a><a id="unopposed-actions"></a><a id="passive-defense"></a><a id="desperation-dodge"></a><a id="opposed-checks"></a>
 #### Resolving Actions
 The system avoids floating target numbers completely. Action resolution depends on whether you are acting against a static environment or an active opponent:
 
@@ -107,11 +110,13 @@ The system avoids floating target numbers completely. Action resolution depends 
   * *Tie-Breaker:* Compare the highest single die face rolled among those successes (a 9 beats an 8).
   * *The Deadlock:* If successes and highest die faces are identical, the **Defender** wins the clash, maintaining the status quo.
 
+<a id="zero-die-mechanic"></a><a id="desperation-die"></a>
 #### The Zero-Die Mechanic
 If circumstances or penalties reduce your dice pool to 0, you roll a single **Desperation Die**:
 * The Desperation Die succeeds on a 9 or 10, and **explodes** on a 10. The resulting "Explosion Die" follows standard rules and succeeds on a 7+.
 * Rolling a **1** results in a catastrophic failure.
 
+<a id="advantage-and-disadvantage"></a>
 #### Advantage and Disadvantage
 * **[System: Disadvantage 1]:** Minor Hindrance. Lose 1 Die.
 * **[System: Disadvantage 2]:** Severe Hindrance. Lose 2 Dice.
@@ -119,12 +124,13 @@ If circumstances or penalties reduce your dice pool to 0, you roll a single **De
 * **[System: Advantage 1]:** Tactical Edge. Add +1 Die.
 * **[System: Advantage 2]:** Severe Dominance. Add +2 Dice. Total applied Advantage to a single dice pool cannot exceed +2.
 
+<a id="overcap-momentum-system"></a><a id="momentum-tokens"></a>
 #### The Overcap Momentum System
 If a player orchestrates a scenario generating a 3rd or 4th Advantage, those excess points convert into **Momentum Tokens** in a shared crew pool:
 * Any player may spend 1 Momentum Token on their turn to grant themselves [System: Advantage 1] or ignore 1 level of Recoil.
 * **All unspent Momentum Tokens evaporate the moment the combat encounter ends.**
 
-<a id="the-action-economy"></a>
+<a id="the-action-economy"></a><a id="initiative-and-the-handoff"></a><a id="popcorn-initiative"></a>
 ### The Action Economy & Turn Order
 
 > "A bullet travels faster than a spell. A thought travels faster than both. Act first or don't act at all."
@@ -140,6 +146,7 @@ Combat begins with the defining action. If in neutral standoff:
 * Spend a Momentum Token to interrupt and take the turn immediately.
 * Hold up to 1 AP from your turn to use as a Reaction during the following round.
 
+<a id="action-points"></a><a id="recoil-rule"></a>
 #### Action Points (AP)
 Every entity operates on a baseline of **3 Action Points (AP)** per turn (maximum cap of 5 AP):
 * **1 AP:** Move, standard attack, swap weapon, or basic maneuver.
@@ -151,6 +158,7 @@ Every entity operates on a baseline of **3 Action Points (AP)** per turn (maximu
 * The second attack roll suffers [System: Disadvantage 1].
 * The third attack roll suffers [System: Disadvantage 2].
 
+<a id="volatile-synchronization"></a><a id="synergy-matrix"></a><a id="called-combo"></a>
 #### Volatile Synchronization (The "Called Combo")
 Players can execute combined maneuvers to bridge Power Scale gaps or unleash devastating elemental combinations:
 1. **The Declaration:** Player A spends AP to prep the combo and designates Player B.
@@ -165,7 +173,16 @@ Players can execute combined maneuvers to bridge Power Scale gaps or unleash dev
 | [Domain: Radiant] (Light/Holy) | [Origin: Biotic] (Organic/Toxin) | [Path Feature: Purifying] | Cellular cleansing. **Instantly heals 1 Severe Trauma stage for ally, or deals double successes vs Eldritch.** |
 | [Domain: Chemical] (Acid/Gas) | [Domain: Thermal] (Fire/Plasma) | [Path Feature: Combustion] | Vapor cloud ignition. **Converts single-target attack into an Area of Effect (Zone).** |
 
-<a id="the-status-manifest"></a>
+<a id="movement-and-distance-scale"></a><a id="distance-bands"></a>
+#### Movement & Distance Scale
+* **[Metric: Distance Point-Blank] (0–5 ft):** Free shifting. Retreating from engagement requires 1 AP.
+* **[Metric: Distance Close Range] (10–30 ft):** 1 AP movement cost. Optimal for pistols and shotguns.
+* **[Metric: Distance Tactical Range] (30–100 ft):** 2 AP sprint cost. Optimal for assault rifles.
+* **[Metric: Distance Long Range] (100–300 ft):** 3 AP desperate run cost.
+* **[Metric: Distance Extended Range] (300–800 ft):** Requires specialized optics/scope tags.
+* **[Metric: Distance Extreme Range] (800–1,500+ ft):** Impossible on foot in a 6-second round; requires vehicles, magic, or teleportation.
+
+<a id="the-status-manifest"></a><a id="trauma-track"></a><a id="stability-track"></a><a id="the-death-timer"></a>
 ### The Status Manifest & Body Map
 
 > "A stim-pack might keep your heart beating, but it won’t reattach your arm. Know your limits before someone else tests them for you."
@@ -183,7 +200,7 @@ Health, damage, and stability are tracked through state-of-being tracks rather t
 * Synthetic entities ([Origin: Synthetic] or full cybernetics) track stress, electrical disruption, and software corruption from Stage 1 to Stage 9. Targeted by [Domain: Digital] and [Domain: Disruptive] damage.
 * Reaching Stage 9 inflicts immediate [Status: System Shutdown] (paralyzed/offline) until rebooted via 3 AP and [Path Feature: Technician] or [Path Feature: Engineering].
 
-<a id="the-body-map"></a>
+<a id="the-body-map"></a><a id="localized-trauma"></a><a id="limb-penalties"></a>
 #### The Body Map & Localized Trauma
 When suffering Severe (Stages 4–6) or Critical Trauma (Stages 7–8), damage is assigned via the 3-Step Hierarchy:
 1. **Narrative Circumstance:** Scenario dictates hit location (e.g. Landmine hits Legs).
@@ -196,6 +213,7 @@ When suffering Severe (Stages 4–6) or Critical Trauma (Stages 7–8), damage i
 * **[Status: Disoriented] (Head):** Lose environmental awareness; cannot use Cognition approach; lose sensory advantages.
 * **[Status: Staggered] (Torso):** Cannot hold AP for Reactions or utilize [Status: Overclocked] abilities.
 
+<a id="triage-and-recovery"></a><a id="mid-combat-triage"></a><a id="recovery-timelines"></a>
 #### Triage & Recovery
 * **Mid-Combat Triage:** Mundane triage can only be performed **once per combat encounter**:
   * *Quick Patch (1 AP):* Suppresses 1 minor trauma stage.
@@ -204,6 +222,7 @@ When suffering Severe (Stages 4–6) or Critical Trauma (Stages 7–8), damage i
 * **Magical Healing:** Bypasses the "once per combat" limit; governed by specific spell descriptions.
 * **Recovery Timelines:** Minor (24–72h; halved for Biotics), Severe (3–6 weeks in Sterile environment), Critical (requires surgical reconstruction or Metaphysical miracles).
 
+<a id="conditions-registry"></a><a id="tense-based-conditions"></a>
 #### Conditions Registry
 
 | Domain | Present-Tense (Active Hazard) | Past-Tense (Resolved Debuff) |
@@ -214,7 +233,7 @@ When suffering Severe (Stages 4–6) or Critical Trauma (Stages 7–8), damage i
 | **Cryo** | [Status: Freezing]: Molecular slowdown; all movement costs +1 AP. | [Status: Brittle]: Next kinetic trauma taken is doubled (shattering effect). |
 | **Biotic** | [Status: Infected]: Biotic trauma per turn; spreads pathogen to touched targets. | [Status: Atrophied]: Muscle/tissue damage; Force tests suffer [System: Disadvantage 1]. |
 
-<a id="the-threat-system"></a>
+<a id="the-threat-system"></a><a id="threat-track"></a><a id="threat-thresholds"></a><a id="cooling-the-track"></a>
 ### The Threat System & Reality Pushback
 
 > "You think you can just bend reality until it breaks and nobody will notice? The Hub notices everything. And it always corrects the ledger."
@@ -229,7 +248,7 @@ The Threat Track is a shared GM pool (1 to 10) tracking dimensional instability 
 
 **Cooling the Track:** Fleeing sector (reduces by half), Laying Low in safehouse (-2 stages), Bribes/Data Wipes.
 
-<a id="the-scale-of-reality"></a>
+<a id="the-scale-of-reality"></a><a id="power-scales"></a><a id="scale-dominance-and-friction"></a><a id="scale-shift"></a>
 ### The Scale of Reality & Power Scales
 
 * **[System: Power Scale 1 Primal & Archaic]:** Low-tech, medieval fantasy, mundane humans, traditional swords, flintlocks.
@@ -246,7 +265,7 @@ Lower-scale entities attacking higher-scale entities face **Friction** (automati
 
 ## Chapter 3: The Wayfarer's Path
 
-<a id="identity-and-origins"></a>
+<a id="identity-and-origins"></a><a id="origin-tags"></a><a id="race-tags"></a><a id="background-tags"></a><a id="rule-of-narrative-authority"></a>
 ### Identity, Origins, & Backgrounds
 
 > "We are all refugees of a war that ended before we were born. You don’t get to choose where the rifts drop you, but you do get to choose what you become when you land."
@@ -267,7 +286,7 @@ Backgrounds provide narrative permission to bypass social obstacles without roll
 * **[Path Feature: Mercenary]:** Possesses [Status: Known] (Professional standing with military forces).
 * **[Path Feature: Commoner]:** Possesses [Status: Hidden] (Pass checkpoints and crowds unnoticed).
 
-<a id="the-tag-permission-registry"></a>
+<a id="the-tag-permission-registry"></a><a id="tag-structure"></a><a id="tag-permission-rule"></a><a id="path-registry"></a>
 ### The Tag-Permission Registry & 1+1+1+2+1 Baseline
 
 > "Specialization is a luxury for stable realities. Out here, you need a hammer, a scalpel, and a loaded gun. But everyone starts somewhere."
@@ -286,7 +305,7 @@ Every starting character selects tags according to this absolute baseline:
 * **Have Tag:** Standard check with no penalty.
 * **Mastery Tag (EXP Upgrade):** Performed with [System: Advantage 1].
 
-<a id="approaches-and-arrays"></a>
+<a id="approaches-and-arrays"></a><a id="the-5-approaches"></a><a id="the-12-die-array"></a>
 ### Approaches & The 12-Die Array
 
 > "Don't tell me what you learned in the academy. Tell me how you hit when you're cornered, how you jump when the floor gives out, and how you think when the air gets thin. That's what matters."
@@ -301,7 +320,7 @@ Characters distribute exactly **12 Dice** across 5 Approaches:
 
 *Cap:* Maximum 4 Dice in any single Approach at character creation (expandable to 5 with EXP). Floor: 0 Dice (uses Desperation Die).
 
-<a id="advancement-and-exp"></a>
+<a id="advancement-and-exp"></a><a id="earning-exp"></a><a id="spending-exp"></a><a id="multi-classing"></a>
 ### Advancement & EXP Progression
 
 * Surviving a session awards **2 EXP**. Completing a major narrative arc awards **+1 Bonus EXP**.
@@ -322,7 +341,7 @@ Characters distribute exactly **12 Dice** across 5 Approaches:
 * **Ascend Power Scale:** 30 EXP + major GM-approved narrative ascension event.
 * **Multi-Classing:** Requires Rating 3+ in primary Approach, narrative catalyst, and **doubled EXP costs** (8 EXP purchase; max ceiling Mastery Tier 2).
 
-<a id="equipment-and-slots"></a>
+<a id="equipment-and-slots"></a><a id="weapon-profiles"></a><a id="slot-management"></a><a id="pushing-the-limit"></a>
 ### Equipment, Slots, & Loadouts
 
 Equipment profiles consist of 4 elements: Approach used, Optimal Range band, Damage Domain, and Weapon Tags.
@@ -336,7 +355,7 @@ Equipment profiles consist of 4 elements: Approach used, Optimal Range band, Dam
 
 ## Chapter 4: Adversaries & Threat Profiles
 
-<a id="running-adversaries"></a>
+<a id="running-adversaries"></a><a id="adversary-hierarchy"></a><a id="morale-and-motivational-anchors"></a>
 ### Running Adversaries & Hierarchy
 
 1. **Minions (The Swarm):** Threat 2 Dice, 1 Major Wound to kill, 1 AP/turn.
@@ -379,7 +398,7 @@ Equipment profiles consist of 4 elements: Approach used, Optimal Range band, Dam
 * **Body Map Status:** Head: [ ] | Torso: [ ] | Arms: [ ] | Legs: [ ]
 ```
 
-<a id="governance-and-factions"></a>
+<a id="governance-and-factions"></a><a id="warrant-track"></a>
 ### Origins, Authority & Factions
 
 * **The Shattering:** Caused by ancient Scale 4 civilization trying to unify time. All rift tech is archaeo-tech.
@@ -388,7 +407,7 @@ Equipment profiles consist of 4 elements: Approach used, Optimal Range band, Dam
 * **Fugitive Factions:** [Path Feature: Wayfarer], [Path Feature: Void-Walker], [System: Anomaly].
 * **[System: Warrant] Track:** 3 Stages (Observed &rarr; Hunted &rarr; Erased).
 
-<a id="interaction-and-damage"></a>
+<a id="interaction-and-damage"></a><a id="multiverse-anomaly-table"></a>
 ### Interaction & Damage Domains
 
 * **Domains:** [Domain: Kinetic], [Domain: Thermal], [Domain: Disruptive], [Domain: Entropy], [Domain: Radiant], [Domain: Cryo], [Domain: Chemical].
@@ -399,14 +418,14 @@ Equipment profiles consist of 4 elements: Approach used, Optimal Range band, Dam
   * *9:* Volatile Surge (action succeeds, but user suffers 1 Trauma).
   * *10:* Cosmic Boon (perfect success + [System: Scale Shift 1]).
 
-<a id="cross-universe-physics"></a>
+<a id="cross-universe-physics"></a><a id="technological-disparity"></a>
 ### Cross-Universe Physics & Disconnection
 
 * **[Lore: Grid-Locked]:** Tech in primitive worlds functions until power/ammo depletes; cannot be recharged locally.
 * **[Status: Severed]:** Entering a realm lacking your magical/divine weave nullifies [Domain: Metaphysical] abilities until reconnected.
 * **Tag Translation:** Reconnecting alters output domain tags (e.g. Divine Radiant &rarr; Machine God Disruptive) while maintaining core math.
 
-<a id="the-economy"></a>
+<a id="the-economy"></a><a id="multiverse-exchange-matrix"></a>
 ### The Economy & Wealth Grades
 
 * **[System: Wealth 0] Destitute:** Daily subsistence survival.
@@ -416,7 +435,7 @@ Equipment profiles consist of 4 elements: Approach used, Optimal Range band, Dam
 * **[System: Wealth 4] Aristocrat / Executive:** Private mercenary units, resurrection magic, corporate estates.
 * **[System: Wealth 5] Cosmic:** Planetary economies, orbital space stations.
 
-<a id="integration-tiers"></a>
+<a id="integration-tiers"></a><a id="power-scale-integration"></a>
 ### Integration Tiers
 
 Integration Tiers govern cross-genre translation of foreign RPG mechanics into the unified d10 Tag Engine:

@@ -1,13 +1,13 @@
 # The Multiverse TTRPG Framework — .gitignore
 
-# Ignore all dot-directories (AI agents, dev configs, IDEs)
+# 1. AI Agents, Development Configs & Staging (Gitignored by Default)
 .*/
 
-# Exception: allow GitHub workflows and CI scripts
+# Exception: Allow GitHub Actions workflows and CI scripts
 !.github/
 !.github/**
 
-# Node / Next.js web application
+# 2. Node & Next.js Web Application
 node_modules/
 .next/
 .env*.local
@@ -17,10 +17,15 @@ yarn-error.log*
 pnpm-debug.log*
 tsconfig.tsbuildinfo
 
-# Homebrewery compiled output artifacts
+# 3. Presentation & Book Build Artifacts
 _homebrewery/master_brew.txt
 *.pdf
 
-# OS & Editor Artifacts
+# 4. Scratch & Temporary Files
+scratch/
+tmp/
+*.tmp
+
+# 5. OS & File System Artifacts
 .DS_Store
 Thumbs.db

@@ -1,0 +1,26 @@
+# Auto-detect text files and enforce LF (Unix-style) line endings on checkout and commit.
+* text=auto eol=lf
+
+# Explicitly declare text file extensions
+*.md text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.txt text eol=lf
+
+# Explicitly declare binary files (so Git doesn't attempt line-ending normalization or text diffs)
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+
+# Hide generated/vendored layout and build files from GitHub Language Statistics
+_homebrewery/**/*.txt linguist-generated=true
+_web/.next/** linguist-vendored=true

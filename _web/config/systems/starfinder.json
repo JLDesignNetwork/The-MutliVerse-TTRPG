@@ -1,0 +1,37 @@
+{
+  "systemName": "Starfinder",
+  "slug": "starfinder",
+  "version": "1.0.0",
+  "description": "Placeholder file for Starfinder.",
+  "mappings": {
+    "approaches": {
+      "userExplanation": "Placeholder for Starfinder approach mappings.",
+      "logic": {
+        "scoreMapping": {},
+        "baseArray": [3, 3, 2, 2, 2]
+      }
+    },
+    "powerScale": {
+      "userExplanation": "Placeholder for Starfinder power scaling.",
+      "logic": {
+        "tiers": []
+      }
+    },
+    "slotTaxes": {
+      "userExplanation": "Placeholder for Starfinder inventory tax rules.",
+      "logic": {
+        "taxableTypes": [],
+        "defaultCost": 1
+      }
+    },
+    "pathTagDefinitions": {
+      "userExplanation": "Placeholder for Starfinder path tags.",
+      "logic": {
+        "forbiddenTags": [],
+        "summaryMap": {},
+        "abstractedVocabulary": {},
+        "manifest": {}
+      }
+    }
+  }
+}

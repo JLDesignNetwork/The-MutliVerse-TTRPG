@@ -1,0 +1,22 @@
+name: CI / Quality & Link Audit
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validate:
+    name: Markdown Links & Schema Validation
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Run Quality & Link Validation
+        run: |
+          python3 .github/scripts/validate_workspace.py

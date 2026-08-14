@@ -27,6 +27,7 @@ The Multiverse TTRPG is a math-less, tag-based d10 dice pool engine designed spe
 ## Repository Workspace Layout
 
 ### 📖 Core Ruleset Books (`docs/2606/`)
+* 📄 **[Master Ruleset Reference & Navigation Matrix](docs/2606/multiverse.md):** `docs/2606/multiverse.md`
 * 🪐 **Book I: The Shattered Cosmos** (`docs/2606/01-Book-I-The-Shattered-Cosmos/`)
   * [01 - The Shattering](docs/2606/01-Book-I-The-Shattered-Cosmos/01-The-Shattering.md) • [02 - Zero-Point Station](docs/2606/01-Book-I-The-Shattered-Cosmos/02-Zero-Point-Station.md) • [03 - Factions & The Rift-Guard](docs/2606/01-Book-I-The-Shattered-Cosmos/03-Factions-and-The-Rift-Guard.md) • [04 - The Grand Purpose](docs/2606/01-Book-I-The-Shattered-Cosmos/04-The-Grand-Purpose.md)
 * ⚖️ **Book II: The Laws of Reality** (`docs/2606/02-Book-II-The-Laws-of-Reality/`)

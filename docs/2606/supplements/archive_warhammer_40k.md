@@ -5,7 +5,7 @@
     "supplementName": "The Infinite Archive: Warhammer 40k Conversion Matrix",
     "targetRuleset": "The Multiverse TTRPG Framework",
     "version": "2606.1.0-bs",
-    "parent_ruleset_file": "../multiverse.md"
+    "parent_ruleset_file": "../02-Book-II-The-Laws-of-Reality/01-Core-Resolution.md"
   }
 }
 ---
@@ -50,6 +50,59 @@ This archive provides conversion baselines for the grimdark universe of Warhamme
 | **Ork Boy** | [Path Feature: WAAAGH!], [Gear: Choppa/Slugga], or [Origin: Sporeborn] | [Path Feature: Veteran], [Path Feature: Rage] | [System: Power Scale 2] | [Domain: Kinetic] | Crude weapons somehow function perfectly. |
 | **Eldar Ranger** | [Path Feature: Sniper], [Path Feature: Wraith-Slip], or [Path Feature: Path of the Outcast] | [Path Feature: Infiltrator], [Path Feature: Survivalist] | [System: Power Scale 2] | [Domain: Kinetic] | Masters of Extreme Range combat. |
 | **Rogue Trader** | [Path Feature: Wealthy], [Path Feature: Warrant of Trade], or [Path Feature: Orbital Asset] | [Background: Socialite], [Path Feature: Connected] | [System: Power Scale 1-2] | [Domain: Kinetic] | Commands massive orbital assets and wealth. |
+
+### Class Tag Permissions
+When you select your archetype's Class Tag, it grants a permanent narrative and mechanical permission.
+
+**Space Marine Tactical**
+*   **[Trait: Defense Ablative 3]:** Your power armor naturally absorbs the first three stages of trauma in any combat encounter without degrading your health.
+*   **[Racial Feature: Astartes Physiology]:** You are immune to standard poisons, diseases, and extreme environments, and can survive in the vacuum of space for short periods.
+*   **[Path Feature: Bolter Discipline]:** You ignore the [System: Recoil] penalty when firing heavy automatic weapons.
+
+**Tech-Priest**
+*   **[Lore: Machine Spirit]:** You can interface directly with digital systems, allowing you to "speak" to computers and machines to glean their intent or malfunctions.
+*   **[Path Feature: Omnissiah's Blessing]:** You possess innate [Path Feature: Machine Empathy], granting [System: Advantage] on all mechanical repairs and enabling seamless use of Architect tech.
+*   **[Path Feature: Flesh is Weak]:** You ignore Trauma Track status penalties specifically related to biological pain or blood loss.
+
+**Inquisitor**
+*   **[Trait: Authority]:** You wield the absolute authority of the Inquisition. Most Imperial citizens and local forces will obey your direct commands without question.
+*   **[Class: Ordo Specialist]:** Choose Xenos, Malleus (Demons), or Hereticus. You gain [System: Advantage] on all checks related to tracking, understanding, or fighting that specific enemy type.
+*   **[Lore: Rosette]:** You can requisition virtually any standard military asset, transport, or file from Imperial sources, bypassing all bureaucratic red tape.
+
+**Commissar**
+*   **[Path Feature: Execute]:** You can execute a fleeing or panicked ally to immediately restore all Morale or mental-stability tags to the rest of the squad.
+*   **[Path Feature: Inspiring Terror]:** You can use Resonance to force enemies with lower Power Scales to surrender or break formation.
+*   **[Path Feature: Iron Will]:** You are entirely immune to magical or psychic fear and mind-control effects.
+
+**Imperial Guardsman**
+*   **[Path Feature: Squad Tactics]:** Whenever you are adjacent to an ally, both of you gain [System: Advantage] on defensive maneuvers.
+*   **[Path Feature: Hold the Line]:** You cannot be knocked prone or forcibly moved by attacks of the same or lower Power Scale.
+*   **[Path Feature: Meatgrinder Survivor]:** You automatically succeed on Endurance checks made to survive extreme starvation, trench rot, or exhaustion.
+
+**Sister of Battle**
+*   **[Path Feature: Fanatic]:** Your unyielding faith acts as a pseudo-[Domain: Metaphysical] defense, allowing you to resist magical trauma with pure Endurance.
+*   **[Path Feature: Acts of Faith]:** Once per combat, you can turn any failed combat check into a baseline success through sheer divine intervention.
+*   **[Lore: Holy Promethium]:** Your thermal weapons (flamers, meltas) ignore [Trait: Defense Resistant Thermal] tags on heretics, mutants, or demons.
+
+**Sanctioned Psyker**
+*   **[System: Volatile]:** You channel immense warp energy. You gain [System: Advantage] on spellcasting, but any non-success triggers the Anomaly Table.
+*   **[Lore: Warp Conduit]:** You can willingly inflict 1 stage of Trauma upon yourself to cast a spell beyond your Frequency limit.
+*   **[Lore: Telepathica]:** You can project your thoughts into the minds of others across vast distances, enabling silent squad communication.
+
+**Ork Boy**
+*   **[Path Feature: WAAAGH!]:** The more Orks present, the stronger you get. Your crude, broken weapons somehow function perfectly due to gestalt psychic belief.
+*   **[Gear: Choppa/Slugga]:** You generate +1 Success on all melee attacks when charging directly at an enemy.
+*   **[Origin: Sporeborn]:** If you are killed, you release spores that will eventually grow into new Orks, ensuring your legacy continues. (Narrative only).
+
+**Eldar Ranger**
+*   **[Path Feature: Sniper]:** You suffer no penalties for firing at extreme distances, and your ranged attacks ignore standard cover.
+*   **[Path Feature: Wraith-Slip]:** You can move through dense foliage, ruins, or hazardous terrain at full speed without leaving a physical trace.
+*   **[Path Feature: Path of the Outcast]:** You easily blend in with alien societies, underworld hubs, and mercenary bands, avoiding immediate hostile reactions.
+
+**Rogue Trader**
+*   **[Path Feature: Wealthy]:** You effectively have unlimited standard currency. You never need to track credits for mundane or standard military purchases.
+*   **[Path Feature: Warrant of Trade]:** You possess a sacred writ allowing you to legally trade with xenos, mutants, and heretics without Imperial repercussion.
+*   **[Path Feature: Orbital Asset]:** Once per session, you can call in a macro-cannon strike or drop-pod reinforcement from your orbiting voidship.
 
 ---
 

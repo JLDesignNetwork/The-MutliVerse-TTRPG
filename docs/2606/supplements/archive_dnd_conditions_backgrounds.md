@@ -5,7 +5,7 @@
     "supplementName": "The Infinite Archive: D&D Conditions & Backgrounds",
     "targetRuleset": "The Multiverse TTRPG Framework",
     "version": "2606.1.0-bs",
-    "parent_ruleset_file": "../multiverse.md"
+    "parent_ruleset_file": "../02-Book-II-The-Laws-of-Reality/01-Core-Resolution.md"
   }
 }
 ---

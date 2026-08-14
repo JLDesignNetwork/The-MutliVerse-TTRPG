@@ -26,13 +26,17 @@ The Multiverse TTRPG is a math-less, tag-based d10 dice pool engine designed spe
 
 ## Repository Workspace Layout
 
-### 📖 Source Documents (`docs/2606/`)
-* 📄 **[The Multiverse Master Ruleset](docs/2606/multiverse.md):** `docs/2606/multiverse.md`
-  * **Chapter 1: The Shattered Cosmos** ([The Shattering](docs/2606/multiverse.md#the-shattering) • [Zero-Point Station](docs/2606/multiverse.md#zero-point-station) • [Factions & The Rift-Guard](docs/2606/multiverse.md#factions-and-the-rift-guard) • [The Grand Purpose](docs/2606/multiverse.md#the-grand-purpose))
-  * **Chapter 2: The Laws of Reality** ([Core Resolution](docs/2606/multiverse.md#core-resolution) • [The Action Economy](docs/2606/multiverse.md#the-action-economy) • [The Status Manifest & Body Map](docs/2606/multiverse.md#the-status-manifest) • [The Threat System](docs/2606/multiverse.md#the-threat-system) • [Power Scales & Friction](docs/2606/multiverse.md#the-scale-of-reality))
-  * **Chapter 3: The Wayfarer’s Path** ([Identity & Origins](docs/2606/multiverse.md#identity-and-origins) • [Tag-Permission Registry](docs/2606/multiverse.md#the-tag-permission-registry) • [Approaches & 12-Die Array](docs/2606/multiverse.md#approaches-and-arrays) • [Advancement & EXP](docs/2606/multiverse.md#advancement-and-exp) • [Equipment & Slots](docs/2606/multiverse.md#equipment-and-slots))
-  * **Chapter 4: Adversaries & Threat Profiles** ([Running Adversaries](docs/2606/multiverse.md#running-adversaries) • [Adversary Hierarchy & Morale](docs/2606/multiverse.md#running-adversaries))
-  * **Chapter 5: Appendices & Mechanics** ([Character Sheet Template](docs/2606/multiverse.md#character-sheet-template) • [Governance & Factions](docs/2606/multiverse.md#governance-and-factions) • [Damage Domains](docs/2606/multiverse.md#interaction-and-damage) • [Cross-Universe Physics](docs/2606/multiverse.md#cross-universe-physics) • [The Economy](docs/2606/multiverse.md#the-economy) • [Integration Tiers](docs/2606/multiverse.md#integration-tiers))
+### 📖 Core Ruleset Books (`docs/2606/`)
+* 🪐 **Book I: The Shattered Cosmos** (`docs/2606/01-Book-I-The-Shattered-Cosmos/`)
+  * [01 - The Shattering](docs/2606/01-Book-I-The-Shattered-Cosmos/01-The-Shattering.md) • [02 - Zero-Point Station](docs/2606/01-Book-I-The-Shattered-Cosmos/02-Zero-Point-Station.md) • [03 - Factions & The Rift-Guard](docs/2606/01-Book-I-The-Shattered-Cosmos/03-Factions-and-The-Rift-Guard.md) • [04 - The Grand Purpose](docs/2606/01-Book-I-The-Shattered-Cosmos/04-The-Grand-Purpose.md)
+* ⚖️ **Book II: The Laws of Reality** (`docs/2606/02-Book-II-The-Laws-of-Reality/`)
+  * [01 - Core Resolution](docs/2606/02-Book-II-The-Laws-of-Reality/01-Core-Resolution.md) • [02 - The Action Economy](docs/2606/02-Book-II-The-Laws-of-Reality/02-The-Action-Economy.md) • [03 - The Status Manifest](docs/2606/02-Book-II-The-Laws-of-Reality/03-The-Status-Manifest.md) • [04 - The Threat System](docs/2606/02-Book-II-The-Laws-of-Reality/04-The-Threat-System.md) • [05 - The Scale of Reality](docs/2606/02-Book-II-The-Laws-of-Reality/05-The-Scale-of-Reality.md)
+* 🧭 **Book III: The Wayfarer's Path** (`docs/2606/03-Book-III-The-Wayfarers-Path/`)
+  * [01 - Identity & Origins](docs/2606/03-Book-III-The-Wayfarers-Path/01-Identity-and-Origins.md) • [02 - The Tag-Permission Registry](docs/2606/03-Book-III-The-Wayfarers-Path/02-The-Tag-Permission-Registry.md) • [03 - Approaches & Arrays](docs/2606/03-Book-III-The-Wayfarers-Path/03-Approaches-and-Arrays.md) • [04 - Advancement & EXP](docs/2606/03-Book-III-The-Wayfarers-Path/04-Advancement-EXP.md) • [05 - Equipment & Slots](docs/2606/03-Book-III-The-Wayfarers-Path/05-Equipment-and-Slots.md)
+* 👾 **Book IV: Adversaries** (`docs/2606/04-Book-IV-Adversaries/`)
+  * [01 - Running Adversaries](docs/2606/04-Book-IV-Adversaries/01-Adversaries.md)
+* 📑 **Book V: Appendices** (`docs/2606/05-Appendices/`)
+  * [01 - Character Sheet Template](docs/2606/05-Appendices/01-Character-Sheet-Template.md) • [02 - Governance & Factions](docs/2606/05-Appendices/02-Governance.md) • [03 - Interaction & Damage](docs/2606/05-Appendices/03-Interaction-and-Damage.md) • [04 - Cross-Universe Physics](docs/2606/05-Appendices/04-Cross-Universe-Physics.md) • [05 - The Economy](docs/2606/05-Appendices/05-The-Economy.md) • [06 - Integration Tiers](docs/2606/05-Appendices/06-Integration-Tiers.md)
 * 📚 **[Terminology & Glossary](docs/2606/terminology.md):** `docs/2606/terminology.md`
 * 📝 **[Master Framework Changelog](CHANGELOG.md):** `CHANGELOG.md`
 

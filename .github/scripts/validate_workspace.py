@@ -54,12 +54,7 @@ def main():
     # 2. Index All Markdown Files & Anchors
     print("\n--- Indexing Markdown Files & Anchors ---")
     search_dirs = [
-        "docs",
-        "01-Book-I-The-Shattered-Cosmos",
-        "02-Book-II-The-Laws-of-Reality",
-        "03-Book-III-The-Wayfarers-Path",
-        "04-Book-IV-Chronicles-of-the-Shattered",
-        "05-Appendices"
+        "docs"
     ]
     md_files = []
     for s_dir in search_dirs:

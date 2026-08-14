@@ -1,54 +1,74 @@
-# The Multiverse TTRPG
+# The Multiverse TTRPG Framework
 
-Welcome to the **Core Manual for The Multiverse TTRPG**.
+[![Framework Version](https://img.shields.io/badge/Ruleset_Version-2606.1.0--bs-8b5cf6.svg)](CHANGELOG.md)
+[![License](https://img.shields.io/badge/License-JLDN_Proprietary-blue.svg)](LICENSE.md)
+[![CI Pipeline](https://img.shields.io/badge/CI-Passing-emerald.svg)](.github/workflows/lint.yml)
 
-This system is a math-less, tag-based d10 dice pool engine designed specifically for cross-genre compatibility. Whether you are running high fantasy, gritty cyberpunk, cosmic horror, or mashing them all together in dimensional rifts, the Unified Tag System ensures seamless integration of conflicting realities.
+Welcome to the **System Reference Document (SRD) & Core Framework for The Multiverse TTRPG**.
+
+The Multiverse is a math-less, tag-based d10 dice pool engine designed specifically for seamless cross-genre compatibility. Whether running high fantasy, gritty cyberpunk, cosmic space-opera, or mashing them all together in dimensional rifts, the Unified Tag-Permission System ensures seamless integration of conflicting realities.
+
+---
 
 ## Core Design Philosophy
 
-- **Math-less Mechanics:** Success isn't about calculating modifiers against floating target numbers. A 7+ on a d10 is a success. Difficulty is physically represented by stripping dice from the pool or invoking tags.
-- **The Unified Tag System:** Everything from armor and damage types to structural integrity and magic is handled through standardized tags.
-- **Scale Dominance:** Power scaling is handled vertically via Power Scales, dictating exactly how a medieval peasant interacts with a cosmic godhead.
-- **Setting Agnostic but Lore Rich:** The engine provides the mechanical skeleton wrapped in a gritty, desperate multiverse where survival is key.
+* **Math-Less Mechanics:** Success is never about calculating floating numerical modifiers. A **7+ on a d10 is a Success**. Difficulty is represented physically on the front end by stripping dice from the pool (Disadvantage) or granting tactical bonus dice (Advantage).
+* **The Unified Tag System:** Everything from armor and damage domains to biological composition and magic is handled through standardized tags (`[Origin:]`, `[Trait:]`, `[Gear:]`, `[Domain:]`, `[Scale:]`).
+* **Scale Dominance & Friction:** Power scaling is handled vertically via Power Scales (Scale 1 to 4), dictating exactly what happens when a medieval knight attacks a main battle tank or a cosmic godhead.
+* **Dual-Track Harm:** Replaces arbitrary hit points with the **9-Stage Trauma Track** (biotic biological harm) and **9-Stage Stability Track** (synthetic software/stress degradation).
+* **The 1+1+1+2+1 Character Baseline:** Structured modular character creation providing 1 Origin + 1 Race + 1 Class + 2 Path + 1 Background tag permissions.
 
-## Table of Contents
+---
 
-### Book I: The Shattered Cosmos
-- **[Lore: The Shattering](01-Book-I-The-Shattered-Cosmos/01-The-Shattering.md)**
-- **[Lore: Zero-Point Station](01-Book-I-The-Shattered-Cosmos/02-Zero-Point-Station.md)**
-- **[Path Feature: Factions & The Rift-Guard](01-Book-I-The-Shattered-Cosmos/03-Factions-and-The-Rift-Guard.md)**
-- **[Path Feature: The Grand Purpose](01-Book-I-The-Shattered-Cosmos/04-The-Grand-Purpose.md)**
+## Authoritative Documentation & Ruleset (`docs/2606/`)
 
-### Book II: The Laws of Reality
-- **[Path Feature: Core Resolution](02-Book-II-The-Laws-of-Reality/01-Core-Resolution.md)**
-- **[Path Feature: The Action Economy](02-Book-II-The-Laws-of-Reality/02-The-Action-Economy.md)**
-- **[Path Feature: The Status Manifest](02-Book-II-The-Laws-of-Reality/03-The-Status-Manifest.md)**
-- **[Path Feature: The Threat System](02-Book-II-The-Laws-of-Reality/04-The-Threat-System.md)**
-- **[System: The Scale of Reality](02-Book-II-The-Laws-of-Reality/05-The-Scale-of-Reality.md)**
+### 📖 Master Core Ruleset
+* **[The Multiverse Master Ruleset (docs/2606/multiverse.md)](docs/2606/multiverse.md)**
+  * **Chapter 1: The Shattered Cosmos** ([The Shattering](docs/2606/multiverse.md#the-shattering) • [Zero-Point Station](docs/2606/multiverse.md#zero-point-station) • [Factions & The Rift-Guard](docs/2606/multiverse.md#factions-and-the-rift-guard) • [The Grand Purpose](docs/2606/multiverse.md#the-grand-purpose))
+  * **Chapter 2: The Laws of Reality** ([Core Resolution](docs/2606/multiverse.md#core-resolution) • [The Action Economy](docs/2606/multiverse.md#the-action-economy) • [The Status Manifest & Body Map](docs/2606/multiverse.md#the-status-manifest) • [The Threat System](docs/2606/multiverse.md#the-threat-system) • [Power Scales & Friction](docs/2606/multiverse.md#the-scale-of-reality))
+  * **Chapter 3: The Wayfarer’s Path** ([Identity & Origins](docs/2606/multiverse.md#identity-and-origins) • [Tag-Permission Registry](docs/2606/multiverse.md#the-tag-permission-registry) • [Approaches & 12-Die Array](docs/2606/multiverse.md#approaches-and-arrays) • [Advancement & EXP](docs/2606/multiverse.md#advancement-and-exp) • [Equipment & Slots](docs/2606/multiverse.md#equipment-and-slots))
+  * **Chapter 4: Adversaries & Threat Profiles** ([Running Adversaries](docs/2606/multiverse.md#running-adversaries) • [Adversary Hierarchy & Morale](docs/2606/multiverse.md#running-adversaries))
+  * **Chapter 5: Appendices & Mechanics** ([Character Sheet Template](docs/2606/multiverse.md#character-sheet-template) • [Governance & Factions](docs/2606/multiverse.md#governance-and-factions) • [Damage Domains](docs/2606/multiverse.md#interaction-and-damage) • [Cross-Universe Physics](docs/2606/multiverse.md#cross-universe-physics) • [The Economy](docs/2606/multiverse.md#the-economy) • [Integration Tiers](docs/2606/multiverse.md#integration-tiers))
+* **[Official Terminology & Taxonomy Glossary (docs/2606/terminology.md)](docs/2606/terminology.md)**
 
-### Book III: The Wayfarer’s Path
-- **[Path Feature: Identity & Origins](03-Book-III-The-Wayfarers-Path/01-Identity-and-Origins.md)**
-- **[Path Feature: The Tag Permission Registry](03-Book-III-The-Wayfarers-Path/02-The-Tag-Permission-Registry.md)**
-- **[Path Feature: Approaches & The 12-Die Array](03-Book-III-The-Wayfarers-Path/03-Approaches-and-Arrays.md)**
-- **[Path Feature: Advancement & EXP](03-Book-III-The-Wayfarers-Path/04-Advancement-EXP.md)**
-- **[Path Feature: Equipment & Slots](03-Book-III-The-Wayfarers-Path/05-Equipment-and-Slots.md)**
+---
 
-### Book IV: Chronicles of the Shattered
-- **[Path Feature: Adversaries](04-Book-IV-Chronicles-of-the-Shattered/01-Adversaries.md)**
-- **[Path Feature: The Infinite Archive](04-Book-IV-Chronicles-of-the-Shattered/01-The-Infinite-Archive.md)**
-- **[Path Feature: Archive D&D 5e](04-Book-IV-Chronicles-of-the-Shattered/02-Archive-DnD-5e.md)**
-- **[Path Feature: Archive Cyberpunk RED](04-Book-IV-Chronicles-of-the-Shattered/03-Archive-Cyberpunk-RED.md)**
-- **[Path Feature: Archive Rifts](04-Book-IV-Chronicles-of-the-Shattered/04-Archive-Rifts.md)**
-- **[Path Feature: Archive Warhammer 40k](04-Book-IV-Chronicles-of-the-Shattered/05-Archive-Warhammer-40k.md)**
-- **[Path Feature: Archive Vampire The Masquerade](04-Book-IV-Chronicles-of-the-Shattered/06-Archive-VtM.md)**
-- **[Path Feature: Archive Pathfinder 2e](04-Book-IV-Chronicles-of-the-Shattered/07-Archive-Pathfinder-2e.md)**
-- **[Path Feature: Archive Starfinder](04-Book-IV-Chronicles-of-the-Shattered/08-Archive-Starfinder.md)**
-- **[Path Feature: Archive Call of Cthulhu](04-Book-IV-Chronicles-of-the-Shattered/09-Archive-Call-Of-Cthulhu.md)**
-- **[Path Feature: Archive Shadowrun](04-Book-IV-Chronicles-of-the-Shattered/10-Archive-Shadowrun.md)**
+### 🌌 The Infinite Archive (Conversion Supplements)
 
-### Appendices
-- **[Path Feature: Character Sheet Template](05-Appendices/01-Character-Sheet-Template.md)**
-- **[Path Feature: Governance](05-Appendices/02-Governance.md)**
-- **[Path Feature: Interaction and Damage](05-Appendices/03-Interaction-and-Damage.md)**
-- **[Path Feature: Cross-Universe Physics](05-Appendices/04-Cross-Universe-Physics.md)**
-- **[Path Feature: The Economy](05-Appendices/05-The-Economy.md)**
+Modular downstream conversion matrices mapping foreign TTRPG rulesets into the math-less Tag Engine:
+
+* **[Infinite Archive Overview](docs/2606/supplements/archive_overview.md)**
+* **[Dungeons & Dragons 5e](docs/2606/supplements/archive_dnd_5e.md)**
+  * [Conditions & Backgrounds](docs/2606/supplements/archive_dnd_conditions_backgrounds.md)
+  * [Feats & Skills](docs/2606/supplements/archive_dnd_feats_skills.md)
+  * [Racial Features](docs/2606/supplements/archive_dnd_racial_features.md)
+  * [Class Features](docs/2606/supplements/archive_dnd_class_features.md)
+* **[Cyberpunk RED](docs/2606/supplements/archive_cyberpunk_red.md)**
+* **[Rifts](docs/2606/supplements/archive_rifts.md)**
+* **[Warhammer 40,000](docs/2606/supplements/archive_warhammer_40k.md)**
+* **[Vampire: The Masquerade](docs/2606/supplements/archive_vtm.md)**
+* **[Pathfinder 2e](docs/2606/supplements/archive_pathfinder_2e.md)**
+* **[Starfinder](docs/2606/supplements/archive_starfinder.md)**
+* **[Call of Cthulhu](docs/2606/supplements/archive_call_of_cthulhu.md)**
+* **[Shadowrun](docs/2606/supplements/archive_shadowrun.md)**
+
+---
+
+## Presentation & Publishing Layer
+
+* **CSS Paged Media & PDF Staging:** Internal book layouts, HTML sources, and PDF rendering reside under `.books/2606/` transitioning to `books/2606/` upon public release.
+* **Web Documentation Viewer & Character Tools:** Dynamic Next.js documentation viewer and character sheet parser engine located in `_web/`.
+
+---
+
+## Developer Governance & Contributing
+
+* **[Unified Agent Governance (.agents/AGENTS.md)](.agents/AGENTS.md)**
+* **[Generation 2606 Strategic Roadmap (.dev/ROADMAP.md)](.dev/ROADMAP.md)**
+* **[Master Backlog Dataset (.dev/2606/backlog.json)](.dev/2606/backlog.json)**
+* **[Contributor Guidelines (CONTRIBUTING.md)](CONTRIBUTING.md)**
+* **[Changelog (CHANGELOG.md)](CHANGELOG.md)**
+
+---
+
+*Author: Jeff Langdon | The Multiverse TTRPG Framework © JLDN*

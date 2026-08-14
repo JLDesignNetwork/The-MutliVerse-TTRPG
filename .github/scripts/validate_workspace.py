@@ -2,9 +2,10 @@
 """
 The Multiverse TTRPG Framework — Automated CI Quality & Link Validator
 Verifies:
-1. Markdown internal link and micro-anchor (<a id="...">) cross-reference resolution across all Book directories (01-05).
-2. JSON schema validity for .dev/ backlog and ideas files.
-3. LF line endings and standard Markdown syntax.
+1. Markdown internal link and micro-anchor (<a id="...">) cross-reference resolution across docs/2606/, supplements/, and book directories.
+2. Frontmatter metadata validity and parent_ruleset_file resolution.
+3. JSON schema validity for .dev/ backlog and ideas files.
+4. LF line endings and standard Markdown syntax.
 """
 
 import os
@@ -52,7 +53,8 @@ def main():
 
     # 2. Index All Markdown Files & Anchors
     print("\n--- Indexing Markdown Files & Anchors ---")
-    book_dirs = [
+    search_dirs = [
+        "docs",
         "01-Book-I-The-Shattered-Cosmos",
         "02-Book-II-The-Laws-of-Reality",
         "03-Book-III-The-Wayfarers-Path",
@@ -60,10 +62,11 @@ def main():
         "05-Appendices"
     ]
     md_files = []
-    for b_dir in book_dirs:
-        md_files.extend(glob.glob(f"{b_dir}/**/*.md", recursive=True))
+    for s_dir in search_dirs:
+        if os.path.exists(s_dir):
+            md_files.extend(glob.glob(f"{s_dir}/**/*.md", recursive=True))
     md_files.extend(["README.md", "CONTRIBUTING.md", "LICENSE.md", "CHANGELOG.md"])
-    md_files = [os.path.normpath(f) for f in md_files if os.path.exists(f)]
+    md_files = sorted(list(set([os.path.normpath(f) for f in md_files if os.path.exists(f)])))
 
     anchor_index = {}
     frontmatter_index = {}
@@ -92,6 +95,11 @@ def main():
             try:
                 fm_data = json.loads(fm_match.group(1))
                 frontmatter_index[mf] = fm_data
+                metadata = fm_data.get("metadata", {})
+                if "parent_ruleset_file" in metadata:
+                    parent_path = os.path.normpath(os.path.join(os.path.dirname(mf), metadata["parent_ruleset_file"]))
+                    if not os.path.exists(parent_path):
+                        errors.append(f"[!] In {mf}: Frontmatter 'parent_ruleset_file' points to missing file '{parent_path}'.")
             except Exception as e:
                 errors.append(f"[!] Invalid JSON frontmatter in {mf}: {e}")
 

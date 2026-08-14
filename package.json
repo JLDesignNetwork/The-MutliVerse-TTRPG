@@ -1,0 +1,12 @@
+{
+  "name": "the-multiverse-monorepo",
+  "version": "2606.1.0-bs",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --dir .web dev",
+    "build": "pnpm --dir .web build",
+    "start": "pnpm --dir .web start",
+    "lint": "pnpm --dir .web lint"
+  },
+  "packageManager": "pnpm@11.8.0"
+}

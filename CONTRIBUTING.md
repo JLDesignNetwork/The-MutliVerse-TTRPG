@@ -13,9 +13,9 @@ The Multiverse TTRPG Framework is engineered around core non-negotiable principl
 1. **Math-less Core Resolution:** Success is determined by rolling 7+ on a d10 pool. Difficulty is physically represented by stripping dice from the pool or invoking tags.
 2. **Unified Tag System:** All mechanical interactions (origins, traits, gear, domains, power scales) are expressed via standardized tags (e.g. `[Origin: Synthetic]`, `[Trait: Defense Ablative 3]`, `[Domain: Kinetic]`, `[Scale: 2]`).
 3. **Separation of Concerns (SoC):**
-   * **Core Documentation & Ruleset (`docs/2606/`):** The authoritative Source of Truth for base math, approaches, threat mechanics, and conversion baselines. Pure Markdown.
-   * **Presentation Layer (`.books/2606/` &rarr; `books/2606/`):** Book compilation, print layout, CSS Paged Media themes, and PDF compilation.
-   * **Web Application (`.web/`):** Next.js viewer, dynamic rules renderer, and JSON system libraries (`.web/config/systems/`).
+   * **Core Documentation & Ruleset Sources (`docs/2606/` & `01`–`05` Directories):** The authoritative Source of Truth for base math, approaches, threat mechanics, and conversion baselines. Pure Markdown source files that feed directly into the Book and Web layers.
+   * **Presentation & Books Layer (`.books/2606/` &rarr; `books/2606/`):** Book compilation, print layout, CSS Paged Media themes, and PDF compilation.
+   * **Web Application Layer (`.web/`):** Next.js dynamic doc viewer, rules renderer, and JSON system libraries (`.web/config/systems/`).
 
 ---
 

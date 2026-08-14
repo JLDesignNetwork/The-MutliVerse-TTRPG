@@ -13,9 +13,9 @@ The Multiverse TTRPG Framework is engineered around core non-negotiable principl
 1. **Math-less Core Resolution:** Success is determined by rolling 7+ on a d10 pool. Difficulty is physically represented by stripping dice from the pool or invoking tags.
 2. **Unified Tag System:** All mechanical interactions (origins, traits, gear, domains, power scales) are expressed via standardized tags (e.g. `[Origin: Synthetic]`, `[Trait: Defense Ablative 3]`, `[Domain: Kinetic]`, `[Scale: 2]`).
 3. **Separation of Concerns (SoC):**
-   * **Core Ruleset (`01`–`05` Directories):** The authoritative Source of Truth for base math, approaches, threat mechanics, and conversion baselines. Pure Markdown.
-   * **Presentation Layer (`_homebrewery/`):** Book compilation, print layout, and CSS themes.
-   * **Web Application (`_web/`):** Next.js viewer, dynamic rules renderer, and JSON system libraries (`_web/config/systems/`).
+   * **Core Documentation & Ruleset (`docs/2606/`):** The authoritative Source of Truth for base math, approaches, threat mechanics, and conversion baselines. Pure Markdown.
+   * **Presentation Layer (`.books/2606/` &rarr; `books/2606/`):** Book compilation, print layout, CSS Paged Media themes, and PDF compilation.
+   * **Web Application (`.web/`):** Next.js viewer, dynamic rules renderer, and JSON system libraries (`.web/config/systems/`).
 
 ---
 
@@ -30,17 +30,17 @@ We accept four primary types of contributions via GitHub:
 
 ### Pathway B: Ruleset Balance & Clarification Fixes
 * **How to Submit:** Open a [Pull Request (PR)](https://github.com/JLDesignNetwork/The-MutliVerse-TTRPG/pulls).
-* **Scope:** Typo corrections, clarity refactors, and minor balance adjustments to Books I through V or Appendices.
+* **Scope:** Typo corrections, clarity refactors, and minor balance adjustments to `docs/2606/` or supplements.
 * **Requirement:** Must preserve the 7+ d10 resolution threshold and tag permission standards.
 
 ### Pathway C: New System Conversion Archives
-* **How to Submit:** Open a [Pull Request (PR)](https://github.com/JLDesignNetwork/The-MutliVerse-TTRPG/pulls) adding a new conversion archive to `04-Book-IV-Chronicles-of-the-Shattered/` and corresponding JSON system library in `_web/config/systems/`.
+* **How to Submit:** Open a [Pull Request (PR)](https://github.com/JLDesignNetwork/The-MutliVerse-TTRPG/pulls) adding a new conversion archive to `docs/2606/supplements/` and corresponding JSON system library in `.web/config/systems/`.
 * **Requirements:**
   * Must map classes, roles, or archetypes cleanly into the Tag-Permission framework.
   * Must conform to the `SystemLibrary.ts` schema if contributing web configuration.
 
-### Pathway D: Homebrewery Themes & Layout Enhancements
-* **How to Submit:** Open a [Pull Request (PR)](https://github.com/JLDesignNetwork/The-MutliVerse-TTRPG/pulls) targeting `_homebrewery/`.
+### Pathway D: Print Themes & Layout Enhancements
+* **How to Submit:** Open a [Pull Request (PR)](https://github.com/JLDesignNetwork/The-MutliVerse-TTRPG/pulls) targeting `.books/2606/` (or `books/2606/`).
 * **Requirement:** Must validate on both US Letter and A4 formats.
 
 ---

@@ -18,7 +18,6 @@ pnpm-debug.log*
 tsconfig.tsbuildinfo
 
 # 3. Presentation & Book Build Artifacts
-_homebrewery/master_brew.txt
 *.pdf
 
 # 4. Scratch & Temporary Files

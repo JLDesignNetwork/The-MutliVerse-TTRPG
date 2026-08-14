@@ -57,7 +57,7 @@ Modular downstream conversion matrices mapping foreign TTRPG rulesets into the m
 ## Presentation & Publishing Layer
 
 * **CSS Paged Media & PDF Staging:** Internal book layouts, HTML sources, and PDF rendering reside under `.books/2606/` transitioning to `books/2606/` upon public release.
-* **Web Documentation Viewer & Character Tools:** Dynamic Next.js documentation viewer and character sheet parser engine located in `_web/`.
+* **Web Documentation Viewer & Character Tools:** Dynamic Next.js documentation viewer and character sheet parser engine located in `.web/`.
 
 ---
 

@@ -1,7 +1,0 @@
-allowBuilds:
-  '@google/genai': true
-  core-js: true
-  protobufjs: true
-  sharp: true
-minimumReleaseAgeExclude:
-  - '@google/genai@2.9.0'

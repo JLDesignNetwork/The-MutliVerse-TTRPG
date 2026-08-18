@@ -25,7 +25,11 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ 'javascript-typescript', 'actions' ]
+        include:
+          - language: actions
+            build-mode: none
+          - language: javascript-typescript
+            build-mode: none
 
     steps:
       - name: Checkout Repository
@@ -35,6 +39,17 @@ jobs:
         uses: github/codeql-action/init@v3
         with:
           languages: ${{ matrix.language }}
+          build-mode: ${{ matrix.build-mode }}
+          config: |
+            paths-ignore:
+              - 'node_modules/**'
+              - '.next/**'
+              - 'dist/**'
+              - 'build/**'
+            paths:
+              - '.web/**'
+              - '.github/**'
+              - 'package.json'
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3

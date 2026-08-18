@@ -66,9 +66,14 @@ export class DnDBeyondParser {
 
   private sanitizeDescription(text: string): string {
     if (!text) return text;
-    // Strip all HTML tags immediately
-    let clean = text.replace(/<[^>]+>/g, '');
-    clean = clean.replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&times;/g, 'x');
+    // Strip all HTML tags iteratively to prevent nested injection bypass
+    let clean = text;
+    while (/<[^>]*>/.test(clean)) {
+      clean = clean.replace(/<[^>]*>/g, '');
+    }
+    clean = clean.replace(/<|>/g, '');
+    // Decode entities with &amp; decoded strictly last to prevent double-unescaping
+    clean = clean.replace(/&nbsp;/g, ' ').replace(/&times;/g, 'x').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&amp;/g, '&');
 
     const mapAttr = (p1: string) => {
         const attrMap: Record<string, string> = {

@@ -1,9 +1,10 @@
 # The Multiverse TTRPG Framework (v2606.1.0-bs)
 
-[![CI Status](https://github.com/JLDesignNetwork/The-MutliVerse-TTRPG/actions/workflows/lint.yml/badge.svg)](https://github.com/JLDesignNetwork/The-MutliVerse-TTRPG/actions/workflows/lint.yml)
+[![CI Status](https://github.com/JLDesignNetwork/The-MutliVerse-TTRPG/actions/workflows/ci.yml/badge.svg)](https://github.com/JLDesignNetwork/The-MutliVerse-TTRPG/actions/workflows/ci.yml)
 [![GVS Version](https://img.shields.io/badge/GVS-2606.1.0--bs-8b5cf6.svg)](CHANGELOG.md)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jldesignnetwork)
 [![License](https://img.shields.io/badge/License-JLDN_Proprietary-blue.svg)](LICENSE.md)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](.github/CONTRIBUTING.md)
 
 ![System Agnostic](https://img.shields.io/badge/System-Agnostic-2d132c.svg)
 ![Science Fiction](https://img.shields.io/badge/Genre-Sci--Fi-0f3460.svg)
@@ -21,6 +22,12 @@ The Multiverse TTRPG is a math-less, tag-based d10 dice pool engine designed spe
 
 * **Author:** Jeff Langdon (JL Design Network)
 * **Ruleset Version:** `2606.1.0-bs` (Official Beta Supported)
+
+### 📚 Documentation & Quick Links
+- 📖 **[Knowledge Base Wiki Index](docs/index.md):** Complete documentation navigator and mechanics overview.
+- 🏗️ **[Ruleset & Web Architecture](docs/architecture.md):** Cosmology topology, 4-Book system, and Next.js web application.
+- 🛠️ **[Game Master & Developer Guide](docs/usage.md):** Campaign running rules and Next.js local development workflows.
+- 🗺️ **[Strategic Roadmap](.dev/ROADMAP.md):** Multi-generational development horizons.
 
 ---
 
@@ -85,7 +92,7 @@ The Multiverse TTRPG is a math-less, tag-based d10 dice pool engine designed spe
 
 ## Contributing & Community Guidelines
 
-We welcome community feedback, balance errata, and new modular conversion supplement submissions! Please review our **[Contribution Guidelines (CONTRIBUTING.md)](CONTRIBUTING.md)** for details on submission pathways, Markdown formatting standards, and pull request workflows.
+We welcome community feedback, balance errata, and new modular conversion supplement submissions! Please review our **[Contribution Guidelines (.github/CONTRIBUTING.md)](.github/CONTRIBUTING.md)** for details on submission pathways, Markdown formatting standards, and pull request workflows.
 
 ---
 

@@ -1,0 +1,23 @@
+name: "Feature or Rule Expansion Proposal"
+description: "Propose a new rule supplement or companion app feature."
+title: "[PROPOSAL]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting a proposal for The MultiVerse TTRPG!
+  - type: textarea
+    id: problem
+    attributes:
+      label: Concept & Motivation
+      description: What thematic or application feature does this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Detailed Proposal
+      description: Describe the proposed rules or UI feature in detail.
+    validations:
+      required: true

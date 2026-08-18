@@ -1,0 +1,1110 @@
+
+{{frontCover}}
+
+# The Multiverse TTRPG
+### Core Manual
+
+{{footnote
+  [SYS-LOG] MULTIVERSE TTRPG CORE // VERSION 1.0 // UNAUTHORIZED ACCESS PROHIBITED
+}}
+
+![Front Cover Art](https://imgur.com/yp1AmxK.png) {position:absolute,top:0,left:0,width:100%}
+
+{{skipCounting}}
+
+\page
+
+
+{{skipCounting}}
+
+\page
+
+
+{{skipCounting}}
+
+\page
+
+{{chapterCover}}
+
+# Book I
+## The Shattered Cosmos
+![Zero-Point Station](https://imgur.com/Y78cO5f.png) {position:absolute,top:0,left:0,width:100%}
+
+{{pageNumber,auto}}
+
+\page
+# The Shattering
+
+> "Do not look at the rifts as doorways. Look at them as wounds. The multiverse is bleeding out, and the Architects are trying to cauterize the veins with us trapped inside. Keep your head down, keep your slots charged, and whatever you do—don't let them catch you tampering with the timeline."
+> — Intercepted Transmission, Wayfarer Designation: 'Vagabond'
+
+The Multiverse was not always a fractured mirror. It was once a singular, unified reality. 
+
+Eons ago, an ancient civilization—operating at the absolute pinnacle of existence, a theoretical `[Power Scale 4]`—attempted to unify time itself. They sought to bind every probability into a single, perfect timeline. Instead, their Hubris tore reality apart. 
+
+This cataclysm is known as **The Shattering**. The singular universe violently detonated into infinite, colliding dimensions. The laws of physics, magic, and digital space were ripped from their foundational moorings and scrambled across realities.
+
+Every piece of rift-tech, every dimensional drive, and every anomalous artifact is actually *archaeo-tech*—dangerous, reverse-engineered fragments from this fallen civilization. You and your fellow Wayfarers are not gods traversing the planes; you are scavengers playing with matches in a powder keg. Every jump between realities is a violent trespassing across a cosmic wound.
+
+{{pageNumber,auto}}
+
+\page
+
+
+# Zero-Point Station
+
+> "The smell hits you first. Ozone, blood, and burnt circuitry. Then the noise—a million dialects of survival echoing off non-Euclidean walls. They call it a station. I call it a life raft."
+> — Wayfarer's Journal, Entry 41
+
+In the wake of The Shattering, reality fractured. But at the dead center of the explosion, a pocket of null-space remained. Here lies **Zero-Point Station**, commonly known simply as **The Hub**.
+
+The Hub is a massive, sprawling, non-Euclidean construct residing entirely outside of individual dimensions. It is the ultimate neutral zone where the boundaries of the Multiverse violently, yet peacefully, coexist. Here, the `[Material]`, `[Digital]`, and `[Metaphysical]` domains overlap seamlessly.
+
+It is a desperate, bustling trade port and the last refuge of the displaced. In the neon-lit bazaars of the lower wards, a cyberpunk hacker from a dystopian metropolis might barter stolen subroutines for a magical grimoire peddled by a medieval wizard. It is a place of infinite possibility and infinite danger, where the only universal currency is survival.
+
+{{pageNumber,auto}}
+
+\page
+
+
+# Factions and The Rift-Guard
+
+> "They don't care if a million innocent souls are consumed by the Void. They only care that the math balances. If pruning your reality keeps the rest of the sector stable, you won't even see the firing squad that pulls the trigger."
+> — Wayfarer's Journal, Entry 12
+
+Existence is governed by a central, terrifying authority: **The Architects**. 
+
+A consortium of `[Power Scale 4]` entities, The Architects survived The Shattering and now view the Multiverse as a diseased organism in need of aggressive triage. They do not rule; they manage. They enforce the **Stability Protocols**, strict laws designed to prevent further dimensional collapse. 
+
+To The Architects, containment is the only priority. Morality is a mathematical error. If a dimension becomes too anomalous or threatens the integrity of the Hub, they will willingly "prune" it—erasing the entire timeline to protect the remaining Multiverse.
+
+### The Rift-Guard
+The Architects' enforcers are the **Rift-Guard**. Drawn from a thousand realities, they are the dimensional police force. Heavy-handed and dogmatic, they patrol the Hub and priority dimensions, hunting down anomalies, enforcing quarantines, and neutralizing threats to dimensional stability. 
+
+### Allegiance and The Wayfarers
+You are a Wayfarer, displaced by the chaotic currents of the Multiverse. Your allegiance is more than a tag on your sheet; it is a philosophical stance on how to survive the end of everything.
+
+* **The Authority (The Rift-Guard):** Do you side with the Architects? Will you enforce order, even if it means destroying free will and sacrificing entire worlds for the "greater good"?
+* **The Fugitives (Syndicates & Free-Runners):** Do you rebel against the pruning? Do you scavenge archaeo-tech to protect your own slice of reality, constantly dodging the Rift-Guard and surviving in the shadows?
+* **The Unaligned:** Do you walk the razor's edge, selling your skills to the highest bidder in the bustling markets of Zero-Point Station? 
+
+![Rift-Guard Crest](https://imgur.com/epUmz9T.png) {position:absolute,bottom:50px,right:50px,width:300px,mix-blend-mode:screen,filter:invert(1)}
+
+{{pageNumber,auto}}
+
+\page
+
+
+# The Grand Purpose
+
+> "We aren't heroes. We are scavengers with a very specific set of skills, trying to make sense of a jigsaw puzzle where half the pieces are on fire and the other half are actively trying to kill us."
+> — Intercepted Transmission, Wayfarer Designation: 'Vagabond'
+
+The Multiverse TTRPG is not a game about saving the world. It is a game about surviving the collision of infinite worlds. 
+
+### The Engine of Play
+As Wayfarers, you are driven by mystery, curiosity, and the raw instinct to survive. You are navigating a multiverse where the specific dilemmas, horrors, and politics of infinite realities are violently bleeding into one another. 
+
+The Grand Purpose of your journey is defined by three pillars:
+1. **Scavenge the Ruins:** You are constantly hunting for archaeo-tech, resources, and lore. Every piece of powerful technology or magic is a fragment of the civilization that broke the world.
+2. **Navigate the Collision:** You must negotiate, fight, and think your way out of situations where high-fantasy magic collides with cyberpunk corporate espionage. The rules of reality are constantly in flux, and only the adaptable survive.
+3. **Evade the Threat:** Whether you are dodging the dogmatic enforcement of the Rift-Guard, fleeing a cosmic anomaly, or surviving a dimensional collapse, the Multiverse is actively pushing back against your existence. 
+
+Your story is one of desperate alliances, tactical scavenging, and the sheer force of will required to carve out a life in the shadows of the Shattered Cosmos.
+
+{{pageNumber,auto}}
+
+\page
+
+{{chapterCover}}
+
+# Book II
+## The Laws of Reality
+![homebrew mug](https://imgur.com/jA5dgiH.png) {position:absolute,top:-10px,left:0,width:100%}
+
+{{pageNumber,auto}}
+
+\page
+# Core Resolution
+
+> "The difference between life and death in the Hub isn't caliber. It's leverage. You don't fight fair against a cyber-troll; you drop the building on him."
+> — Wayfarer's Journal, Entry 09
+
+The Multiverse TTRPG operates on a d10 dice pool system that prioritizes narrative flow over granular math.
+
+## The Dice Pool
+
+When attempting a risky or opposed action, you will roll a pool of d10s (10-sided dice) based on your Approaches or the Threat Rating of an adversary.
+
+### Successes & Failures
+* **Success (7, 8, 9):** A die showing a 7, 8, or 9 is considered a standard success.
+* **Critical Success (10):** A 10 is a critical success. It counts as a success **and explodes**, allowing you to immediately roll an additional d10 to add to your pool.
+* **Critical Failure (1):** A 1 on a die is a critical failure. 
+
+## Resolving Actions
+
+The system avoids floating target numbers completely. Action resolution depends on whether you are acting against a static environment or an active opponent.
+
+### Unopposed Actions (The Static Environment)
+For unopposed actions (e.g., climbing a wall, picking a lock, translating an ancient text), the baseline requirement is always a **single success (rolling at least one 7+)**. 
+*   **Scaling Difficulty:** The GM does not require "3 successes" for a harder task. Instead, difficulty is exclusively scaled *before the roll* by applying the **[Disadvantage: X]** tag. 
+*   **Example:** Climbing a standard fence requires a normal Force roll (needing one 7+). Climbing a sheer, rain-slicked cliff applies **[Disadvantage: 2]** to the Force pool. If the player still manages to roll a 7 on their remaining dice, they succeed. 
+
+### Defense and Evasion
+To prevent static combat scenarios where players are defenseless without AP, combat includes baseline evasion mechanics.
+*   **Passive Defense:** All combatants have a "Passive Defense" equal to 1 Success. If an attacker cannot generate at least 1 Success, the attack misses entirely.
+*   **Desperation Dodge:** If a player is completely out of AP and targeted by an attack, they may use a "Desperation Dodge" as a free action. The player rolls their **Precision** pool at **[Disadvantage: 2]**. If they generate even 1 Success, they successfully negate the incoming hit.
+
+### Opposed Checks (The Success Clash)
+When two entities act against each other (e.g., grappling, contested hacking, or dodging a blast), they both roll their respective Approach pools. The winner is determined by **Total Successes**, not the single highest face value. 
+*   **The Resolution:** Count the number of dice that show a 7 or higher. The character with the most successes wins the clash.
+*   **The Tie-Breaker:** If both characters roll the exact same number of successes, compare the **highest single die face** rolled among those successes (e.g., a 9 beats an 8).
+
+{{pageNumber,auto}}
+
+\page
+
+*   **The Deadlock:** If the number of successes *and* the highest die faces are perfectly identical, the **Defender** (the one reacting to the action) wins the clash, maintaining the status quo.
+
+### The Zero-Die Mechanic
+If circumstances or penalties reduce your dice pool to 0, you must rely on the Zero-Die Mechanic. You roll a single **Desperation Die**.
+* The action only succeeds on a perfect **10**.
+* The Desperation Die **explodes** on a 10. The resulting "Explosion Die" follows standard rules and succeeds on a 7+.
+* Rolling a **1** results in a catastrophic failure.
+
+## Advantage and Disadvantage
+
+Difficulty is not handled by increasing a target number; it is handled by physically restricting your tools or granting tactical superiority.
+
+### Scaled Disadvantage
+When attempting actions under heavy duress, poor environmental conditions, or optimal range mismatch, you suffer Disadvantage, which strips dice from your pool before you roll.
+* **[Disadvantage: 1]:** Minor Hindrance. Lose 1 Die.
+* **[Disadvantage: 2]:** Severe Hindrance. Lose 2 Dice.
+* **[Disadvantage: 3]:** Critical Hindrance. Your dice pool drops to 0; you must use the Zero-Die Mechanic.
+
+### Scaled Advantage
+When utilizing superior tactics, specialized gear, or exploiting weaknesses, you gain Advantage.
+* **[Advantage: 1]:** Tactical Edge. Add +1 Die.
+* **[Advantage: 2]:** Severe Dominance. Add +2 Dice.
+* **[Advantage: 3]:** Absolute Checkmate. Add +3 Dice (or convert one existing die in your pool to an automatic 10 if you are at the Power Scale Balance Cap).
+
+### Advantage Cap
+Tactical advantages and Mastery Tag bonuses may stack, but total [Advantage] applied to a single dice pool can never exceed +2.
+
+{{pageNumber,auto}}
+
+\page
+# The Action Economy
+
+> "A bullet travels faster than a spell. A thought travels faster than both. Act first or don't act at all."
+> — Intercepted Transmission, Wayfarer Designation: 'Vagabond'
+
+Combat and high-stakes encounters are structured around Actions Points (AP) and fluid initiative.
+
+## Initiative & Turn Order
+
+### The Engagement
+Combat begins with a defining action. If there is a neutral standoff, the first actor is determined by the following hierarchy:
+1. **Scale Dominance:** The entity with the highest Power Scale acts first.
+2. **Sensory & Spatial Permissions:** Environmental tags dictate advantage (e.g., an entity with [Darkvision] in pitch black acts before a blinded enemy).
+3. **The Precision Clash:** If all else is equal, compare the base Precision approaches.
+
+### The Handoff (Popcorn Initiative)
+Once a character finishes their turn, they choose who acts next—an ally or an enemy—among those who haven't acted yet this round. The last character to act in a round chooses who begins the next round.
+
+### Interrupts & Reactions
+* You may spend an **[Advantage]** die or burn a **[Slots: X]** point to steal the turn and act immediately.
+* Characters may hold up to 1 AP from their turn to be used as a Reaction during the following round.
+
+## Action Points (AP)
+
+Every entity operates on a baseline of **3 Action Points (AP)** per turn.
+
+### Standard Action Costs
+* **1 AP:** Move, standard attack, swap weapon, or basic maneuver.
+* **2 AP:** Channel a stable spell, Buddy-Aid, or fire an unbraced heavy weapon.
+* **3 AP:** Critical Triage, cast a massive spell, or execute an extreme sprint.
+
+#### The Recoil Rule (Multi-Attacks)
+To prevent rapid suppression without consequence, every attack action beyond the first in a single turn gains the **[Recoil]** tag.
+*   The first attack roll of a turn is normal.
+*   The second attack roll of the turn suffers **[Disadvantage: 1]**.
+*   The third attack roll suffers **[Disadvantage: 2]**.
+This exponentially increases the difficulty of unloading a full magazine or multi-swinging in a single turn.
+
+### Trauma Penalties
+Injuries strictly impact your capability without requiring mathematical calculations.
+* Severe Trauma applies binary qualitative tags to body parts (e.g., **[Maimed]**, **[Hobbled]**, **[Disoriented]**, **[Staggered]**).
+* These tags enforce narrative limitations rather than AP math. For instance, **[Hobbled]** means you cannot execute sprint actions; **[Staggered]** means you cannot hold AP for Reactions. 
+* *See The Status Manifest for the full Trauma rules.*
+
+{{pageNumber,auto}}
+
+\page
+### Expanding the AP Pool
+An entity may not exceed a maximum of 5 AP in a single turn.
+* **[Overclocked]:** Artificial acceleration grants +1 to +2 AP, but risks system shock.
+* **Scale Dominance:** Power Scale 3 and Power Scale 4 entities inherently possess 4 or 5 base AP, respectively.
+* **[Adrenaline]:** A consumable surge that grants +1 AP when taking a Severe Major Wound.
+
+## Movement & Distance Scale
+
+* **Point-Blank (0-5 ft):** Free shifting. Retreating from engagement requires 1 AP.
+* **Close Range (10-30 ft):** 1 AP movement cost. Optimal for pistols and shotguns.
+* **Tactical Range (30-100 ft):** 2 AP sprint cost. Optimal for assault rifles.
+* **Long Range (100-300 ft):** 3 AP desperate run cost.
+* **Extended Range (300-800 ft):** Requires specialized [Long-Range] optics or scope tags. Optimal for sniper rifles.
+* **Extreme Range (800-1,500+ ft):** Impossible on foot in a 6-second round. Requires vehicles, magic, or specialized transport.
+* **Closing Distance:** Moving from Extreme Range to Long Range requires 2 full turns of dedicated movement (spending 3 AP each turn) unless the character utilizes [Metaphysical] or [Digital] teleportation/translocation tags.
+
+{{pageNumber,auto}}
+
+\page
+
+
+# The Status Manifest
+
+> "A stim-pack might keep your heart beating, but it won’t reattach your arm. Know your limits before someone else tests them for you."
+> — Intercepted Transmission, Wayfarer Designation: 'Bones'
+
+The Multiverse TTRPG tracks health, damage, and stability through state-of-being tracks rather than numerical hit points.
+
+## The 9-Stage Trauma Track
+Player Characters and Major Adversaries utilize a 9-Stage Trauma Track to measure physical harm.
+*   **Minor Trauma (Stages 1-3):** Flesh wounds and superficial damage. No immediate mechanical penalty.
+*   **Severe Trauma (Stages 4-6):** Deep structural damage. Imposes specific localized limb penalties (see The Body Map below).
+*   **Critical Trauma (Stages 7-9):** Lethal or incapacitating damage.
+
+### Incapacitation & The Death Timer
+When a character reaches Stage 9 on the Trauma Track, they gain the `[Incapacitated]` tag and begin bleeding out.
+*   **The Timer:** Upon reaching Stage 9, a character begins a death timer equal to their **Fortitude Approach rating (in rounds)**. For example, a character with 3 Fortitude dice has 3 rounds to be stabilized or triaged before they perish.
+*   **Stabilization:** Any ally can spend 1 AP to perform a basic "Stabilize" action (a flat Fortitude check), which pauses the timer for the duration of the combat encounter.
+
+## The 9-Stage Stability Track
+`[Synthetic]` and `[Bionic]` entities possess a secondary 9-Stage Stability Track to measure system stress, electrical disruption, and software corruption.
+*   **Tracking:** Stability behaves like the Trauma Track but is specifically targeted by `[Digital]`, `[Disruptive]`, or EMP damage profiles.
+*   **Shutdown:** Reaching Stage 9 on the Stability Track does not trigger a Death Timer. Instead, the entity suffers an immediate `[System Shutdown]`, rendering them paralyzed and offline until rebooted or repaired by an ally with the `[Engineering]` tag.
+
+## The Body Map & Localized Trauma
+
+When an entity suffers Severe (Stages 4-6) or Critical Trauma (Stages 7-8), the damage is localized to a specific zone on the Body Map (Head, Torso, Arms, Legs).
+
+### 3-Step Assignment Hierarchy
+To determine *where* an attack lands without requiring tedious dice charts, use this rapid narrative hierarchy:
+1. **Narrative Circumstance:** If the scenario dictates a hit location (e.g., stepping on a landmine automatically hits the legs), the damage is applied there.
+2. **The Called Shot:** If the attacker explicitly declares a target location *before* rolling, and subsequently succeeds, the damage is applied to that location.
+3. **Defender's Choice:** If neither of the above apply, the *defender* chooses where they take the hit. They must pick a location that makes narrative sense.
+
+{{pageNumber,auto}}
+
+\page
+### Qualitative Penalties (The "No-Math" Rule)
+Severe Trauma applies binary qualitative tags rather than requiring AP math.
+* **[Maimed] (Arms):** You suffer `[Disadvantage: 2]` on manual tasks and cannot use two-handed items or heavy weaponry.
+* **[Hobbled] (Legs):** You cannot execute sprint actions; closing distance beyond Close Range requires two full turns of movement, or ally assistance.
+* **[Disoriented] (Head):** You lose environmental awareness, cannot use the Insight approach, and lose any sensory advantages.
+* **[Staggered] (Torso):** You cannot hold AP for Reactions or utilize `[Overclocked]` abilities due to systemic shock.
+
+## Triage & Recovery
+
+### Mid-Combat Triage
+Combat healing is defined as stabilization, not total recovery. 
+*   **The Mechanic:** A character with the appropriate **Tag-Permission** (`[Medical]` for organics, or `[Engineering]` for synthetics/bionics) can spend 2 AP and 1 Slot to perform Triage.
+*   **The Result:** The target restores **1 Stage** (moving them down the 9-stage track by 1). A character can only be "triaged" once per combat encounter before the wound requires advanced care.
+
+### Recovery Timelines
+* **Minor Grade (Stages 1-3):** 24–72 hours. Characters with the `[Biotic]` Origin heal in 12–36 hours due to the `[Rapid Healing]` tag.
+* **Severe Grade (Stages 4-6):** 3 to 6 weeks. Requires a `[Sterile]` environment and the correct **Tag-Permission** (e.g., `[Medical]` for organics) granted by an Origin or Path.
+* **Critical Grade (Stages 7-9):** Do not heal naturally. Require surgical reconstruction, cybernetic replacement, or `[Metaphysical]` miracles.
+
+### Recovery Stages & Relapse
+Active trauma converts into `[Recovery: X]` tags over time. Pushing physical limits while recovering requires a Fortitude check. Failure triggers a Relapse, reverting the recovery back to a live trauma tag. Recovering characters can safely perform non-physical "Desk Duty" actions without risking a Relapse.
+
+{{pageNumber,auto}}
+
+\page
+# The Threat System
+
+> "You think you can just bend reality until it breaks and nobody will notice? The Hub notices everything. And it always corrects the ledger."
+> — Intercepted Transmission, Wayfarer Designation: 'Cipher'
+
+The Multiverse is a fragile construct, heavily monitored by The Architects and inherently hostile to destabilization. The **Threat Track** represents this escalating pressure. It merges narrative consequences with mechanical danger, tracking your crew's overall "Warrant" and the likelihood of dimensional anomalies.
+
+## The Threat Track
+
+The Threat Track is a shared pool managed by the Game Master, ranging from 1 to 10. It represents the immediate sector's instability and the local Architect security response.
+
+### Escalating the Track
+The track advances when players push the limits of reality or draw undue attention. The GM advances the track by +1 when:
+*   A player uses a `[Volatile]` tag and fails the roll.
+*   A player exhausts their Slot capacity and "Pushes the Limit."
+*   A massive explosion or heavily destructive weapon is utilized in a populated or monitored zone.
+*   The crew deliberately overrides a zero-point gate or corrupts a local timeline.
+*   The crew ignores a direct Architect mandate.
+
+## Threat Thresholds & Consequences
+
+As the track advances, the consequences become increasingly dire. The GM may trigger a consequence appropriate for the current tier.
+
+### Tier 1: Systemic Friction (Track 1-3)
+*The sector is taking notice. Reality is stressed.*
+*   **Communication Interference:** Long-range comms drop out or become flooded with static and Architect telemetry data.
+*   **Minor Glitches:** Synthetics experience harmless but disturbing sensory hallucinations. Magic users feel an uncomfortable "pull" on their aura.
+*   **Security Sweeps:** Local automated drones or low-level corporate security enter the area to investigate anomalies.
+
+### Tier 2: The Pushback (Track 4-6)
+*The environment becomes hostile. Automated corrections begin.*
+*   **The Anomaly:** A localized dimensional hazard forms. Gravity reverses in a single room, a localized time-loop traps a character for 1 round, or shadows become solid, difficult terrain.
+*   **Warrant Escalation:** The crew is flagged as "Persons of Interest." Bounties are posted to the local undercity network.
+*   **Rift-Guard Deployment:** A small, specialized squad of Rift-Guard executes a tactical drop into the sector.
+
+{{pageNumber,auto}}
+
+\page
+### Tier 3: Critical Instability (Track 7-9)
+*Reality is actively attempting to crush the anomaly (you).*
+*   **Severe Anomalies:** A hostile rift opens, pulling in environmental hazards or depositing predatory entities from an unknown dimension.
+*   **The Purge Order:** The crew's Warrant is escalated to "Execute on Sight." Any nearby faction with ties to the Architects will immediately attack.
+*   **Architect Overrides:** Doors lock, life support drops, or the very geometry of the facility begins shifting to trap the crew.
+
+### Tier 4: The Erasure Event (Track 10)
+*The Architects intervene directly.*
+*   An **Architect Prime** manifests, or a **Zero-Point Erasure** weapon is deployed. This is a survival scenario; there is no fighting a Tier 4 response. The crew has exactly 3 rounds to escape the sector before the area and everything in it is completely reset or deleted from the Hub.
+
+## Cooling the Track
+The Threat Track does not reset easily.
+*   **Fleeing the Sector:** Moving to a completely different, disconnected region of the Hub reduces the track by half (rounded down).
+*   **Laying Low:** Taking a Long Rest in a completely secure, unregistered safehouse reduces the track by 1d4.
+*   **Direct Bribes / Data Wipes:** Spending significant resources (credits, rare tech, or calling in extreme favors) to wipe the crew's signatures from the local grid.
+
+{{pageNumber,auto}}
+
+\page
+
+
+# Power Scales (Integration Scales)
+
+Power Scales abstract vertical power scaling and technological eras. This is what handles multi-genre compatibility, defining what happens when a knight attacks a tank.
+
+## The Four Power Scales
+
+* **[Power Scale 1: Primal & Archaic]:** Low-tech, medieval fantasy, or mundane human baselines. Includes flintlocks, traditional swords, and standard beasts.
+* **[Power Scale 2: Augmented & Industrial]:** Modern firearms, steampunk mechanisms, early cybernetics, and intermediate supernatural potencies.
+* **[Power Scale 3: Advanced & Stellar]:** High sci-fi, starships, powered mechs, heavy power armor, elder supernatural entities, and cataclysmic magical arts. Includes classic Mega-Damage Capacity (M.D.C.) profiles.
+* **[Power Scale 4: Cosmic & Singular]:** Reality-warping deities, outer dimensional godheads, and absolute planetary threats.
+
+## Scale Dominance & Friction
+
+When cross-scale conflicts occur, **Scale Dominance** applies. 
+
+Lower-scale entities suffering checks against or attempting to bypass the defenses of higher-scale entities encounter severe **Friction**. 
+* This results in automatic failure or heavily enforced disadvantage.
+* The only way to bypass Friction is if the lower-scale entity possesses matching protective tags, exploits specific vulnerabilities, or utilizes Scale Shifting.
+
+### The Scale Hard-Cap
+To prevent astronomical luck from breaking Power Scale logic:
+* An attack cannot inflict damage on an entity that is 2 or more Power Scales higher unless the attacker possesses a specific [Piercing] or [Flatline] tag that matches the target's specific composition tag (e.g., [Anti-Alloy] weaponry). Without the correct tag, dice outcomes of 10 do not explode against superior Scales; they are treated as standard successes.
+
+### [Scale Shift +/- X]
+Activating a [Scale Shift] is a **Mastery-level action** that temporarily alters an entity's power scale, allowing them to punch above their weight class momentarily to avoid Friction.
+* **Cost:** It requires the player to possess a **[Mastery Tag]** (e.g., [Combat Stimulant Expert], [Tactical Genius]). 
+* **Activation:** Burning 1 Slot and 2 AP. 
+* **Effect:** It provides a [+1 Scale Shift] for the duration of one encounter, allowing the player to act as if they are one Power Scale higher for the purpose of avoiding Friction.
+
+{{pageNumber,auto}}
+
+\page
+
+{{chapterCover}}
+
+# Book III
+## The Wayfarer's Path
+![homebrew mug](https://imgur.com/cAHUrjf.png) {position:absolute,top:0,left:0,width:100%}
+
+{{pageNumber,auto}}
+
+\page
+# Identity & Origins
+
+> "We are all refugees of a war that ended before we were born. You don’t get to choose where the rifts drop you, but you do get to choose what you become when you land."
+> — Wayfarer's Journal, Entry 14
+
+Character creation begins with defining who you are physically and where you came from socially. These two elements are represented by your Origin Tag and your Background Tag.
+
+## The Origin Tag (Physiology & Material)
+Your Origin dictates your physiological composition, the `[Material]` domain you occupy, your baseline Power Scale, and your inherent physiological traits.
+
+*   **[Biotic]:** `[Organic]`. Possesses the `[Rapid Healing]` tag (Minor Trauma Stages heal in half the time).
+*   **[Synthetic]:** `[Synthetic]`. Possesses `[Shielded: 1]` and immunity to biological toxins; requires `[Engineering]` rather than `[Medical]` for stabilization.
+*   **[Ascendant]:** `[Eldritch/Relic]`. Possesses `[Attuned]`. Begins with +1 `[Slot]`, but suffers `[Vulnerable: Disruptive]`.
+*   **[Dimensional-Drifter]:** `[Material/Metaphysical]`. Possesses `[Unstable]`, allowing one re-roll of a `[Volatile]` result per session.
+
+## Background Tags & Social Leverage
+Backgrounds provide "Narrative Permission" to bypass social obstacles. Backgrounds do not grant dice; they grant automatic successes or information via the "Rule of Narrative Authority."
+
+### Background Tags
+* **[Highborn]:** Possesses `[Status]`. Automatically gain audiences with rulers or executives.
+* **[Criminal]:** Possesses `[Underworld]`. Automatically locate Black Markets and procure illegal goods.
+* **[Scholar]:** Possesses `[Well-Read]`. Automatically identify `[Power Scale]` and device origins.
+* **[Mercenary]:** Possesses `[Known]`. Automatically gain `[Professional]` status with military/security forces.
+* **[Commoner]:** Possesses `[Hidden]`. Automatically pass through checkpoints and crowds without detection.
+
+### The Rule of Narrative Authority
+If a player’s Background provides the appropriate **[Tag]**, they do not roll dice to achieve a social goal that aligns with their station.
+*   **Example:** A `[Highborn]` showing a signet ring to a guard is an automatic success.
+*   **Exception:** If a player uses a Background tag for a goal outside its scope (e.g., a `[Scholar]` trying to intimidate a thug), they must roll their **Presence** Approach as a standard check with no benefit.
+
+> **GM's Veto:** If an application of a Background's Rule of Narrative Authority trivializes the central challenge of a mission, the GM may override the automatic success and instead require a Presence or Insight roll at `[Disadvantage: 2]`.
+{blocknote}
+
+{{pageNumber,auto}}
+
+\page
+# The Tag-Permission Registry
+
+> "Specialization is a luxury for stable realities. Out here, you need a hammer, a scalpel, and a loaded gun. But everyone starts somewhere."
+> — Intercepted Transmission, Wayfarer Designation: 'Patchwork'
+
+The Tag-Permission Registry defines the core of a character's mechanical capabilities through the **1+2 Tag Structure**.
+
+## The 1+2 Tag Structure (Classes & Paths)
+
+During character creation, players define their capabilities by selecting one Class Tag and two Path Tags:
+
+1. **Class Tag (1):** Every character selects one Class Tag from the [Universal Asset Registry](../04-Book-IV-Chronicles-of-the-Shattered/01-Universal-Asset-Registry.md) (or works with the GM to define a custom one). The Class Tag grants one mandatory, archetype-defining Permission that forms the foundation of their mechanical identity (e.g., a Barbarian receives `[Rage]`, allowing for `[Resistant: Kinetic]` and melee `[Advantage]`). **Class Tags are permanent** and cannot be changed after creation without a major narrative "Ascension" event.
+2. **Path Tags (2):** After selecting their Class Tag, a player must choose **two Path Tags** from the Path Book below to define their specialized expertise, lived experience, or magical tradition. Path Tags replace the traditional "Skill List."
+
+> **EXP Expansion:** While characters start with a 1+2 structure at creation, additional Path Tags can be purchased via EXP as the character grows. Class Tags, however, remain singular and permanent.
+{blocknote}
+
+## The Tag-Permission Rule (Skill Resolution)
+To maintain a math-less system, we use the Tag-Permission Rule for all non-combat actions. There are no numerical skill proficiencies.
+* **No Tag:** If a player attempts a specialized task without the required Tag (e.g., hacking without `[Networked]`, or performing surgery without `[Medical]`), the action is attempted at **`[Disadvantage: 2]`** and the action is considered **`[Volatile]`**.
+* **Have Tag:** If the player possesses the required Tag-Permission, they perform the action normally as a Standard Check.
+* **Mastery Tag (EXP Upgrade):** If a player spends 8 EXP to upgrade a Tag to its `[Mastery]` form (e.g., `[Master Hacker]`, `[Master Surgeon]`), they perform the action with **`[Advantage: 1]`**.
+
+## The Path Book (Registry)
+This dictionary-style list details the core Path Tags available during character creation and the mechanical permissions they grant.
+
+*   **[Veteran]:** Grants `[Tactical Awareness]`. 
+    *   *Permission:* The character may hold 2 AP from their turn to be used as Reactions instead of the standard 1 AP limit.
+
+{{pageNumber,auto}}
+
+\page
+*   **[Technician]:** Grants `[Networked]` and `[Mechanical]`. 
+    *   *Permission:* Repair and Hacking checks are Standard Actions. Grants the `[Engineering]` tag, allowing the character to triage and stabilize `[Synthetic]` and `[Bionic]` entities. Nullifies `[Disadvantage]` penalties for hacking or interacting with foreign `[Digital]` infrastructure.
+*   **[Survivalist]:** Grants `[Forager]`. 
+    *   *Permission:* The character is immune to `[Disadvantage]` penalties resulting from environmental hazards, extreme weather, or difficult natural terrain.
+*   **[Conduit]:** Grants `[Metaphysical]`. 
+    *   *Permission:* The character begins with a `[Slots: 3]` pool (if they don't already have it) and can safely channel or interact with localized magical, divine, or psionic power sources without instantly triggering a `[Volatile]` reaction.
+*   **[Infiltrator]:** Grants `[Shadowed]`. 
+    *   *Permission:* Gains `[Advantage: 1]` on Precision rolls when operating in low light, dense cover, or when attempting stealth against unaware targets.
+*   **[Socialite]:** Grants `[Influential]`. 
+    *   *Permission:* Once per session, the character may substitute their Presence Approach for any other Approach roll by successfully leveraging social capital, calling in a favor, or manipulating the scenario.
+
+*(Note: The Path Registry is fully expandable. Players may work with the GM to define new Path Tags for highly specialized concepts, provided they adhere to the single-permission structure).*
+
+{{pageNumber,auto}}
+
+\page
+# Approaches & The 12-Die Array
+
+> "Don't tell me what you learned in the academy. Tell me how you hit when you're cornered, how you jump when the floor gives out, and how you think when the air gets thin. That's what matters."
+> — Wayfarer's Journal, Entry 22
+
+Characters define their capabilities through Approaches rather than granular skills.
+
+## The 5 Approaches
+
+* **Force:** Physical power, kinetic output, athletics, brute strength, and fortitude.
+* **Precision:** Accuracy, dexterity, acrobatics, sleight of hand, and reflexes.
+* **Fortitude:** Constitution, stamina, endurance, and physical resistance to trauma.
+* **Insight:** Intelligence, technological aptitude, perception, and analytical reasoning.
+* **Presence:** Charisma, intimidation, empathy, manipulation, and willpower.
+
+## The 12-Die Array
+
+Players generating a character natively within The Multiverse Tag Engine do not pick rigid classes. Instead, they distribute exactly 12 Dice across the 5 Approaches.
+
+*   **The Cap:** A starting character cannot place more than **4 Dice** in a single Approach.
+*   **The Floor:** A player may leave an Approach at **0 Dice**. Any check using an Approach with 0 Dice relies on the Zero-Die Mechanic (rolling a single Desperation Die that only succeeds on a 10 and explodes on a 10).
+
+{{pageNumber,auto}}
+
+\page
+# Advancement & EXP
+
+
+> "If you survive long enough, you stop adapting to the Hub and the Hub starts adapting to you."
+> — Intercepted Transmission, Wayfarer Designation: 'Ghost'
+
+Characters grow dynamically by spending Experience Points (EXP) to alter their physical sheet and acquire new capabilities.
+
+## Earning EXP
+*   **Surviving a Session:** Earn **2 EXP**.
+*   **Completing a Major Narrative Arc / Defeating a Boss:** Earn **1 Bonus EXP**.
+
+## Spending EXP
+Players can spend EXP to upgrade their Approaches, purchase new Path Tags, or ascend their Power Scale.
+
+*   **Increase an Approach:** Costs EXP equal to the *(New Rating x 2)*. The absolute cap is 5 Dice. (e.g., Upgrading Insight from 3 to 4 costs 8 EXP).
+*   **Acquire a Standard Tag (4 EXP):** Purchase a new minor capability, such as gaining `[Medical]` training, installing a minor `[Bionic]` eye, or learning a basic spell. This allows a character to expand beyond their initial 1+2 Tag Structure by acquiring new Path Tags.
+*   **Acquire a Mastery Tag (8 EXP):** Purchase rule-breaking or devastating tags, such as `[Autofire]`, `[Exploding]`, or a massive `[Metaphysical]` area-of-effect spell. 
+*   **Expand Slot Capacity (4 EXP):** Permanently increase Slot capacity by spending 4 EXP per additional Slot.
+*   **Ascend Power Scales (15 EXP):** Bumping from `[Power Scale 1]` to `[Power Scale 2]` costs 15 EXP but cannot be done purely with points. It requires a massive narrative justification approved by the GM (e.g., replacing your skeleton with alloy, achieving divine ascension, or acquiring a cosmic relic). 
+
+> **The Permanence of Class Tags:** While Path Tags can be purchased dynamically with EXP, a character's **Class Tag** is foundational to their identity. It cannot be changed or swapped without a major narrative "Ascension" event or a drastic character restructuring approved by the GM.
+{blocknote}
+
+{{pageNumber,auto}}
+
+\page
+# Equipment, Slots, & Loadout
+
+> "A plasma rifle is just a very expensive club if you don't have the juice to power it. Always check your battery before you open the airlock."
+> — Wayfarer's Journal, Entry 31
+
+Weapons, gear, magic, and tech hacking all function as tools that dictate *how* an action is made, its optimal range, and the specific mechanical consequences (via Tags) that apply upon success.
+
+## Weapon & Equipment Profiles
+
+Equipment does not have static numerical damage dice. Instead, a weapon or tool provides a profile consisting of four primary elements:
+
+1.  **The Approach:** The attribute used to wield the weapon effectively.
+    *   *Melee Weapons:* Rely on **Force** or **Precision**.
+    *   *Firearms and Ranged Weapons:* Rely strictly on **Precision**.
+2.  **The Range:** Every weapon operates within an optimal distance (e.g., Point-Blank, Close, Tactical, Extreme). Firing outside of this optimal range applies **`[Disadvantage]`**.
+3.  **The Domain:** The type of damage or influence the weapon inflicts (e.g., `[Kinetic]`, `[Thermal]`, `[Disruptive]`, `[Radiant]`). This interacts directly with the target's Material tag.
+4.  **The Tags:** Tags dictate the special rules or conditions a weapon imposes on a successful hit (e.g., `[Fracturing]` inflicts the `[Fractured]` condition; `[Flatline]` bypasses armor).
+
+## Slot Management & Loadouts
+
+The `[Slots: X]` tag is the universal resource pool for executing Magic, Divinity, advanced Tech Hacking, and maintaining powerful persistent assets (like heavy cybernetics, enchanted auras, or bound spirits) without suffering catastrophic backlash.
+
+### [Available] vs [Invested] Slots
+
+Your Slot capacity is split into two states:
+*   **[Available] Slots:** These are active resource points you spend dynamically during combat. 
+    *   *Action Cost:* Casting a spell or executing a hack requires AP. If you spend an `[Available]` Slot alongside that AP, the action is stable. 
+    *   *Recharging:* `[Available]` Slots recharge fully upon completing a Long Rest in a Stable Environment (e.g., a `[Grid-Supported]` zone for hackers, or a `[Source-Connected]` location for casters).
+*   **[Invested] Slots:** These represent a persistent power draw. If you activate a continuous effect (e.g., maintaining a forcefield spell, powering a high-draw plasma cannon, or running a stealth-camo cybernetic), you must shift `[Available]` Slots into `[Invested]` Slots. 
+    *   *Restriction:* Invested Slots cannot be spent on dynamic actions. They remain locked until the persistent effect is dropped or deactivated, at which point they return to your `[Available]` pool (but they must still be recharged via rest if they were consumed by the deactivation).
+
+### The Limits of Power
+
+*   **Capacity Expansion:** A player can permanently increase their Slot capacity by spending **4 EXP** per additional Slot.
+
+{{pageNumber,auto}}
+
+\page
+*   **The Hard Limit:** A character's maximum total Slot capacity (Available + Invested) is tied strictly to their current Power Scale:
+    *   **Maximum Slots = 5 + (Current Power Scale x 2)**
+    *   *(e.g., A Power Scale 1 character can hold a maximum of 7 Slots).*
+
+### Pushing the Limit (Threat Escalation)
+
+If a character has exhausted their `[Available]` slots, they can still cast a spell or attempt a hack. However, doing so automatically attaches the **`[Volatile]`** tag to the action. 
+
+If the player fails their roll for any reason (triggering on **any failure result**, not just a critical 1), it immediately escalates the **Threat Track** in the sector. Pushing the limits bends reality until it snaps back at you in the form of dimensional anomalies, system glitches, or a rapid response from the Architects.
+
+{{pageNumber,auto}}
+
+\page
+
+{{chapterCover}}
+
+# Book IV
+
+## Chronicles of the Shattered
+![homebrew mug](https://imgur.com/pz2uQZx.png) {position:absolute,top:0,left:0,width:100%}
+
+{{pageNumber,auto}}
+
+\page
+# The Infinite Archive
+
+The Multiverse TTRPG is designed to seamlessly integrate characters, enemies, and concepts from entirely different tabletop roleplaying games. The Infinite Archive is a conversion bridge that maps classes, roles, and archetypes from other systems into the Tag-Permission framework.
+
+## The Universal Asset Reference Table
+
+When importing an adversary or allowing a player to port a character from another system, use this table as a baseline translation guide. 
+
+*   **System of Origin:** The native TTRPG system.
+*   **Asset Name:** The class, archetype, or monster name.
+*   **Recommended Origin Tag:** The baseline physiological state.
+*   **Class Tag (Archetype):** Wayfarers may choose one of the listed Class Tags for their Archetype to define their core mechanical permission, granting greater flexibility to their origin. This tag is permanent.
+*   **Recommended Path Tags (Choose 2):** Suggested Path Tags to fulfill the 1+2 Structure.
+*   **Power Scale Baseline:** The default Power Scale (1-4) they operate within.
+*   **Default Domain:** The primary type of interaction or damage they output.
+
+### Available System Archives:
+1. **[Dungeons & Dragons 5e](02-Archive-DnD-5e.md)**
+2. **[Cyberpunk RED](03-Archive-Cyberpunk-RED.md)**
+3. **[Rifts](04-Archive-Rifts.md)**
+4. **[Warhammer 40k](05-Archive-Warhammer-40k.md)**
+5. **[Vampire: The Masquerade](06-Archive-VtM.md)**
+6. **[Pathfinder 2e](07-Archive-Pathfinder-2e.md)**
+7. **[Starfinder](08-Archive-Starfinder.md)**
+8. **[Call of Cthulhu](09-Archive-Call-Of-Cthulhu.md)**
+9. **[Shadowrun](10-Archive-Shadowrun.md)**
+
+> **GM Note:** These tables are a starting point. A Level 20 Wizard would be escalated to `[Power Scale 3]` or `[Power Scale 4]`, while a Level 1 Wizard remains at `[Power Scale 1]`. Scale the asset based on the narrative threat they pose in their native system.
+{blocknote}
+
+## Cross-Contamination (The Rift-Beast Mechanic)
+
+When entities (especially monsters and fauna) enter a new dimension through a volatile rift, they do not simply arrive intact. The physics of dimensional travel warp their physiology, creating "Cross-Contamination."
+
+### The Mechanic
+When a creature enters the battlefield via an unstable or `[Volatile]` rift, they immediately gain the **`[Anomaly]`** tag. This tag represents a fusion of physical mutation and localized environmental hazard.
+
+The GM rolls **1d6** on the Anomaly Table below to determine the specific Cross-Contamination effect applied to the creature:
+
+{{pageNumber,auto}}
+
+\page
+
+#### Anomaly Table
+| 1d6 | Contamination Effect | Description |
+| :--- | :--- | :--- |
+| **1** | **Domain Shift (Mutation)** | The creature's physiological attacks permanently shift to a new domain (e.g., an `[Organic]` wolf's bite now deals `[Digital]` data-corruption trauma). |
+| **2** | **Volatile Aura (Hazard)** | The creature emanates a 30ft aura of dimensional static. Any entity starting its turn inside the aura suffers `[Disadvantage: 1]` to all technological or magical checks. |
+| **3** | **Ablative Carapace (Mutation)** | Dimensional friction calcifies onto the creature upon entry. It gains an `[Ablative: 2]` armor tag, regardless of its native stats. |
+| **4** | **Temporal Stutter (Hazard)** | The creature phases in and out of the current timeline. It gains the Passive Defense of a standard evasion automatically without spending AP, requiring attackers to generate at least 2 successes to hit it. |
+| **5** | **Energy Feedback (Hazard)** | The creature's form is supercharged. Striking the creature with any melee attack triggers a localized blast. The attacker immediately takes 1 Trauma Point unless they pass a Force or Fortitude check. |
+| **6** | **Eldritch Awakening (Mutation)** | The creature absorbs the void. It jumps +1 Power Scale and gains the `[Ascendant]` origin. However, its form rapidly degrades; it dies instantly at the end of the combat encounter. |
+
+{{pageNumber,auto}}
+
+\page
+# Running Adversaries
+
+Game Masters utilize four classifications of adversary complexity to balance the action economy and mental bandwidth.
+
+## The Adversary Hierarchy
+
+1. **Minions (The Swarm):**
+   * **Threat Rating:** 2 Dice.
+   * **Health:** Binary (1 Major Wound kills them).
+   * **Economy:** 1 AP per turn.
+
+2. **Veterans (The Tactical Baseline):**
+   * **Threat Rating:** 3 Dice.
+   * **Health:** Requires 2 hits (1 to strip an [Ablative] armor tag, and 1 to kill).
+   * **Economy:** 2 AP per turn.
+
+3. **Elites (The Tactical Threat):**
+   * **Threat Rating:** Targeted specific stat approaches.
+   * **Health:** Requires 2 full Major Wounds to kill.
+   * **Economy:** 3 AP per turn.
+   * **Special:** Always possesses at least one signature Tag.
+
+4. **Bosses (The Mirror Match):**
+   * **Threat Rating:** Full Character Sheet with 5 Approaches.
+   * **Health:** Utilizes the full 9-Stage Trauma Track.
+   * **Economy:** 3 to 5 AP per turn depending on Scale Dominance.
+
+> **Design Note:** When pitting players against enemies 2+ Power Scales higher, the GM must ensure the encounter includes secondary objectives or environmental vulnerabilities. Lower-scale players cannot bypass Scale Friction without these tactical elements, even with perfect dice rolls.
+{blocknote}
+ 
+## Morale, Leadership, & The Breaking Point
+
+Entities do not fight to the death unconditionally. Morale dictates combat flow and enemy retreats.
+
+### The Baseline Morale Grades
+* **[Morale: 1]:** Self-Preservation. Will break at the first sign of losing.
+* **[Morale: 2]:** Professional. Will execute orders and hold lines until strategically unviable.
+* **[Morale: 3]:** Zealot. Will fight through grievous injury for their cause.
+* **[Mindless]:** Immune to morale breaking.
+
+### The Motivational Anchors
+Tags such as **[Drive: Fear]**, **[Drive: Loyalty]**, or **[Drive: Dedication]** dictate precisely how enemy units behave when their morale breaks.
+
+### The Anatomy of a Break
+When Morale is shattered, the enemies will default to one of these states based on their Anchors:
+* **The Panicked Rout:** Drop weapons and sprint to Extreme Range.
+* **The Desperate Rescue:** Gain the [Suppressed] tag to drag [Incapacitated] allies out of the line of fire.
+* **The Tactical Fallback:** Dedicate 2 AP to moving away safely, while utilizing 1 AP for suppressive covering fire.
+
+{{pageNumber,auto}}
+
+\page
+# The Infinite Archive: Dungeons & Dragons 5e
+
+This archive provides conversion baselines for the core races and classes from Dungeons & Dragons 5th Edition.
+
+## Core Races
+| Race | Recommended Origin Tag | Innate Ability Tags | Notes |
+| :--- | :--- | :--- | :--- |
+| **Dragonborn** | `[Biotic]` | `[Elemental Breath]`, `[Resistant: Thermal/Acid/etc]` | Breath domain depends on ancestry. |
+| **Dwarf** | `[Biotic]` | `[Darkvision]`, `[Resistant: Toxic]` | High Fortitude approach baseline. |
+| **Elf** | `[Biotic]` | `[Darkvision]`, `[Attuned]` | High Precision and Insight. |
+| **Gnome** | `[Biotic]` | `[Darkvision]`, `[Resistant: Metaphysical]` | Strong resistance to mind-altering magic. |
+| **Half-Elf** | `[Biotic]` | `[Darkvision]`, `[Influential]` | Naturally versatile. |
+| **Halfling** | `[Biotic]` | `[Lucky]`, `[Shadowed]` | [Lucky] allows limited rerolls. |
+| **Half-Orc** | `[Biotic]` | `[Relentless]`, `[Intimidating]` | [Relentless] ignores the first incapacitating blow. |
+| **Human** | `[Biotic]` | `[Versatile]` | Grants one extra baseline standard tag. |
+| **Tiefling** | `[Biotic]` | `[Darkvision]`, `[Resistant: Thermal]` | |
+
+:
+
+### Origin & Innate Tag Permissions
+*   **[Biotic]:** You are a living, biological organism. You require food, water, and oxygen, and are susceptible to organic toxins and diseases.
+*   **[Darkvision]:** You ignore `[Disadvantage]` penalties for acting in complete or near-total darkness.
+*   **[Elemental Breath]:** You possess a biological weapon (e.g., fire, acid) that you can use at short range without a weapon.
+*   **[Resistant: X]:** You automatically ignore the first stage of trauma applied from your specific element or hazard type.
+*   **[Attuned]:** You can passively sense the presence of active magic, ethereal entities, or rifts within your immediate vicinity.
+*   **[Lucky]:** Once per session, you may force the GM to reroll a single die or anomaly result that directly affects you.
+*   **[Relentless]:** The first time you would be incapacitated or drop to Trauma Stage 9, you instead remain conscious at Stage 8.
+*   **[Intimidating]:** You gain `[Advantage]` on Presence checks made to frighten, coerce, or bully an NPC.
+*   **[Versatile]:** During character creation, you may select one additional Path Tag or one minor narrative permission.
+*   **[Shadowed]:** You gain `[Advantage: 1]` on Precision rolls when attempting stealth in low light or dense cover.
+*   **[Influential]:** Once per session, you may substitute your Presence Approach for any other Approach roll by leveraging social capital.
+
+{{pageNumber,auto}}
+
+\page
+
+> **Note on Path Tags:** The Recommended Path Tags listed below (such as `[Veteran]` or `[Conduit]`) are core capabilities. Their full mechanical permissions are detailed in **Book III: The Tag-Permission Registry**.
+{blocknote}
+
+## Core Classes
+| Class | Class Tag Options (Choose 1) | Recommended Path Tags (Choose 2) | Power Scale Baseline | Default Domain | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Barbarian** | `[Rage]`, `[Juggernaut]`, or `[Blood-Trance]` | `[Veteran]`, `[Survivalist]` | `[Scale 1-2]` | `[Kinetic]` | Melee and survival focus. |
+| **Bard** | `[Inspire]`, `[Lore-Keeper]`, or `[Skald]` | `[Socialite]`, `[Conduit]` | `[Scale 1-2]` | `[Metaphysical]` / `[Sonic]` | Highly versatile buff/debuff focus. |
+| **Cleric** | `[Divine Channel]`, `[War Priest]`, or `[Life-Weaver]` | `[Conduit]`, `[Medical]` | `[Scale 1-2]` | `[Metaphysical]` | Primary healer and divine caster. |
+| **Druid** | `[Shapeshift]`, `[Nature's Wrath]`, or `[Spirit-Walker]` | `[Conduit]`, `[Survivalist]` | `[Scale 1-2]` | `[Metaphysical]` | Nature and shapeshifting focus. |
+| **Fighter** | `[Mastery: Weapon]`, `[Tactician]`, or `[Champion]` | `[Veteran]`, `[Acrobat]` | `[Scale 1-2]` | `[Kinetic]` | Baseline combat specialist. |
+| **Monk** | `[Ki Strike]`, `[Shadow-Step]`, or `[Iron Body]` | `[Veteran]`, `[Acrobat]` | `[Scale 1-2]` | `[Kinetic]` | Unarmed combat and mobility. |
+| **Paladin** | `[Divine Smite]`, `[Aura of Protection]`, or `[Oathbound]` | `[Veteran]`, `[Conduit]` | `[Scale 1-2]` | `[Kinetic]` / `[Metaphysical]` | Holy warrior blending martial and magic. |
+| **Ranger** | `[Favored Terrain]`, `[Beast-Master]`, or `[Hunter's Mark]` | `[Veteran]`, `[Survivalist]` | `[Scale 1-2]` | `[Kinetic]` | Strong in wilderness environments. |
+| **Rogue** | `[Sneak Attack]`, `[Assassin]`, or `[Phantom]` | `[Infiltrator]`, `[Shadowed]` | `[Scale 1-2]` | `[Kinetic]` | Exploits [Advantage] for massive burst damage. |
+| **Sorcerer** | `[Metamagic]`, `[Wild Magic]`, or `[Draconic Bloodline]` | `[Conduit]`, `[Volatile]` | `[Scale 1-2]` | `[Metaphysical]` | Innate casting; highly malleable magic. |
+| **Warlock** | `[Eldritch Pact]`, `[Hexblade]`, or `[Mind-Thief]` | `[Conduit]`, `[Eldritch]` | `[Scale 1-2]` | `[Metaphysical]` / `[Disruptive]` | Pacts grant unique Eldritch invocations. |
+| **Wizard** | `[Spellbook]`, `[Abjurer]`, or `[Evoker]` | `[Scholar]`, `[Conduit]` | `[Scale 1-2]` | `[Metaphysical]` | Broadest access to magical domains. |
+
+{{pageNumber,auto}}
+
+\page
+### Class Tag Permissions
+When you select your archetype's Class Tag, it grants a permanent narrative and mechanical permission.
+
+**Barbarian**
+*   **[Rage]:** You can enter a state of fury, granting `[Resistant: Kinetic]` and `[Advantage]` on all melee Force checks, but preventing complex logical actions.
+*   **[Juggernaut]:** You ignore movement penalties from heavy armor or carrying massive loads, and can smash through structural barriers without rolling.
+*   **[Blood-Trance]:** You ignore all Status Effects from the Trauma Track until combat ends or you drop to Stage 9.
+**Bard**
+*   **[Inspire]:** You can spend an action to grant `[Advantage]` to an ally's next roll.
+*   **[Lore-Keeper]:** You automatically know a relevant rumor or historical fact about any named location, faction, or artifact.
+*   **[Skald]:** You can use Presence instead of Force to intimidate or rally troops in mass combat.
+
+**Cleric**
+*   **[Divine Channel]:** You can spend Slots to perform miracles aligned with your deity's domain (e.g., healing, turning undead).
+*   **[War Priest]:** You can wield heavy weapons and heavy armor without the `[Disadvantage]` penalty usually applied to magic users.
+*   **[Life-Weaver]:** When using Triage to stabilize an ally, you restore two Trauma Stages instead of one.
+
+**Druid**
+*   **[Shapeshift]:** You can physically transform into beasts. While shifted, you use the physical tags of the beast instead of your own.
+*   **[Nature's Wrath]:** You gain `[Advantage]` when manipulating environmental hazards (vines, weather, earth) to attack or trap foes.
+*   **[Spirit-Walker]:** You can see and communicate with spirits, elementals, and the lingering echoes of the dead.
+
+**Fighter**
+*   **[Mastery: Weapon]:** Choose one weapon type. You always generate +1 Success on attacks with that weapon.
+*   **[Tactician]:** You can assess a battlefield to identify the primary weakness or objective of the enemy forces automatically.
+*   **[Champion]:** Your physical critical threshold is expanded; your Desperation Die explodes on a 9 or 10.
+
+**Monk**
+*   **[Ki Strike]:** Your unarmed strikes count as `[Piercing]` against standard kinetic armor.
+*   **[Shadow-Step]:** You can instantly traverse short distances between areas of darkness without triggering movement penalties or overwatch.
+*   **[Iron Body]:** You naturally possess `[Ablative: 1]` armor even when unarmored.
+
+**Paladin**
+*   **[Divine Smite]:** You can spend 1 Slot after a successful melee hit to add a massive burst of `[Radiant]` trauma.
+*   **[Aura of Protection]:** Allies standing adjacent to you gain your highest Resistance tag.
+*   **[Oathbound]:** You gain `[Advantage]` on any check that directly furthers your sworn oath, but suffer `[Disadvantage]` if you act against it.
+
+**Ranger**
+*   **[Favored Terrain]:** You cannot be tracked, and you ignore all natural difficult terrain penalties.
+*   **[Beast-Master]:** You command a loyal animal companion that acts independently on your turn without costing your AP.
+*   **[Hunter's Mark]:** You can mark a target; you never lose track of them as long as they remain on the same plane of existence.
+
+{{pageNumber,auto}}
+
+\page
+
+**Rogue**
+*   **[Sneak Attack]:** If you attack a target who is distracted or unaware, your attack is automatically treated as if you rolled 1 additional Success.
+*   **[Assassin]:** You gain `[Advantage]` on checks made to craft poisons, set traps, or strike from complete stealth.
+*   **[Phantom]:** You leave no physical footprints, thermal signature, or scent trail unless you choose to.
+
+**Sorcerer**
+*   **[Metamagic]:** You can alter the tags of your spells on the fly (e.g., changing a `[Thermal]` blast to `[Sonic]`, or changing `[Loud]` to `[Silent]`).
+*   **[Wild Magic]:** You generate an extra d10 for spellcasting, but any non-success result triggers an immediate roll on the Anomaly Table.
+*   **[Draconic Bloodline]:** You naturally possess `[Scale 2]` physical durability and a passive breath weapon.
+
+**Warlock**
+*   **[Eldritch Pact]:** You can petition your patron for a supernatural favor or knowledge once per session, though it always comes with a narrative cost.
+*   **[Hexblade]:** You can summon a bound weapon from the void that uses Insight instead of Force for combat checks.
+*   **[Mind-Thief]:** You can read the surface thoughts of any sentient creature you make physical contact with.
+
+**Wizard**
+*   **[Spellbook]:** You can permanently learn any spell or ritual you encounter by spending downtime to transcribe it.
+*   **[Abjurer]:** You can project a protective barrier over yourself or an ally that absorbs 1 Trauma Stage per encounter.
+*   **[Evoker]:** Your area-of-effect spells automatically exclude your allies from the blast radius.
+
+{{pageNumber,auto}}
+
+\page
+# The Infinite Archive: Warhammer 40k
+
+This archive provides conversion baselines for the grimdark universe of Warhammer 40,000 (Wrath & Glory / Dark Heresy variants).
+
+## Core Races / Species
+| Species | Recommended Origin Tag | Innate Ability Tags | Notes |
+| :--- | :--- | :--- | :--- |
+| **Human** | `[Biotic]` | `[Versatile]` | Baseline imperium citizen. |
+| **Transhuman (Astartes)**| `[Biotic]` | `[Resistant: Toxic]`, `[Ablative: 1]` | Biologically engineered. Operates at `[Scale 2]` without armor. |
+| **Eldar (Aeldari)** | `[Biotic]` | `[Acrobat]`, `[Psionic]` | High Precision approach. |
+| **Ork** | `[Biotic]` | `[Resistant: Kinetic]`, `[Relentless]`| Massive Fortitude pools. |
+
+:
+### Origin & Innate Tag Permissions
+*   **[Biotic]:** You are a living, biological organism. You require food, water, and oxygen, and are susceptible to organic toxins and diseases.
+*   **[Versatile]:** During character creation, you may select one additional Path Tag or one minor narrative permission.
+*   **[Resistant: X]:** You automatically ignore the first stage of trauma applied from your specific element or hazard type (e.g., Toxic, Kinetic).
+*   **[Ablative: X]:** You naturally absorb the first X stages of physical trauma in any encounter without degrading your health.
+*   **[Acrobat]:** You gain `[Advantage]` on Precision or Force checks made to navigate difficult terrain, climb, or avoid area-of-effect hazards.
+*   **[Psionic]:** You have a natural connection to the warp, granting the innate ability to sense other minds or warp anomalies nearby.
+*   **[Relentless]:** The first time you would be incapacitated or drop to Trauma Stage 9, you instead remain conscious at Stage 8.
+
+{{pageNumber,auto}}
+
+\page
+
+> **Note on Path Tags:** The Recommended Path Tags listed below (such as `[Veteran]` or `[Technician]`) are core capabilities. Their full mechanical permissions are detailed in **Book III: The Tag-Permission Registry**.
+{blocknote}
+
+## Core Archetypes (Classes)
+| Archetype | Class Tag Options (Choose 1) | Recommended Path Tags (Choose 2) | Power Scale Baseline | Default Domain | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Space Marine Tactical** | `[Ablative: 3]`, `[Astartes Physiology]`, or `[Bolter Discipline]` | `[Veteran]`, `[Heavy Weapons]` | `[Scale 3]` | `[Kinetic]` / `[Thermal]` | Power Armor grants `[Scale 3]` and heavy mitigation. |
+| **Tech-Priest** | `[Machine Spirit]`, `[Omnissiah's Blessing]`, or `[Flesh is Weak]` | `[Technician]`, `[Bionic]` | `[Scale 2]` | `[Kinetic]` / `[Digital]` | Interacts with the Machine Spirit (hacking/repair). |
+| **Inquisitor** | `[Authority]`, `[Ordo Specialist]`, or `[Rosette]` | `[Scholar]`, `[Socialite]` | `[Scale 2]` | `[Kinetic]` / `[Metaphysical]`| Extreme [Rule of Narrative Authority] within the Imperium. |
+| **Commissar** | `[Execute]`, `[Inspiring Terror]`, or `[Iron Will]` | `[Veteran]`, `[Intimidating]`| `[Scale 2]` | `[Kinetic]` | Can execute allies to restore Morale tags. |
+| **Imperial Guardsman**| `[Squad Tactics]`, `[Hold the Line]`, or `[Meatgrinder Survivor]` | `[Veteran]`, `[Survivalist]` | `[Scale 1]` | `[Thermal]` (Lasgun) | Cheap gear, reliant on squad tactics. |
+| **Sister of Battle**| `[Fanatic]`, `[Acts of Faith]`, or `[Holy Promethium]` | `[Veteran]`, `[Conduit]` | `[Scale 2]` | `[Thermal]` | Faith acts as a pseudo-`[Metaphysical]` defense. |
+| **Sanctioned Psyker**| `[Volatile]`, `[Warp Conduit]`, or `[Telepathica]` | `[Conduit]`, `[Scholar]` | `[Scale 2]` | `[Metaphysical]` | High risk of rolling on the Anomaly Table on a 1. |
+| **Ork Boy** | `[WAAAGH!]`, `[Choppa/Slugga]`, or `[Sporeborn]` | `[Veteran]`, `[Rage]` | `[Scale 2]` | `[Kinetic]` | Crude weapons somehow function perfectly. |
+| **Eldar Ranger** | `[Sniper]`, `[Wraith-Slip]`, or `[Path of the Outcast]` | `[Infiltrator]`, `[Survivalist]` | `[Scale 2]` | `[Kinetic]` | Masters of Extreme Range combat. |
+| **Rogue Trader** | `[Wealthy]`, `[Warrant of Trade]`, or `[Orbital Asset]` | `[Socialite]`, `[Connected]` | `[Scale 1-2]` | `[Kinetic]` | Commands massive orbital assets and wealth. |
+
+:
+### Class Tag Permissions
+When you select your archetype's Class Tag, it grants a permanent narrative and mechanical permission.
+
+**Space Marine Tactical**
+*   **[Ablative: 3]:** Your power armor naturally absorbs the first three stages of trauma in any combat encounter without degrading your health.
+*   **[Astartes Physiology]:** You are immune to standard poisons, diseases, and extreme environments, and can survive in the vacuum of space for short periods.
+*   **[Bolter Discipline]:** You ignore the `[Recoil]` penalty when firing heavy automatic weapons.
+
+{{pageNumber,auto}}
+
+\page
+**Tech-Priest**
+*   **[Machine Spirit]:** You can interface directly with digital systems, allowing you to "speak" to computers and machines to glean their intent or malfunctions.
+*   **[Omnissiah's Blessing]:** You possess innate `[Machine Empathy]`, granting `[Advantage]` on all mechanical repairs and enabling seamless use of Architect tech.
+*   **[Flesh is Weak]:** You ignore Trauma Track status penalties specifically related to biological pain or blood loss.
+
+**Inquisitor**
+*   **[Authority]:** You wield the absolute authority of the Inquisition. Most Imperial citizens and local forces will obey your direct commands without question.
+*   **[Ordo Specialist]:** Choose Xenos, Malleus (Demons), or Hereticus. You gain `[Advantage]` on all checks related to tracking, understanding, or fighting that specific enemy type.
+*   **[Rosette]:** You can requisition virtually any standard military asset, transport, or file from Imperial sources, bypassing all bureaucratic red tape.
+
+**Commissar**
+*   **[Execute]:** You can execute a fleeing or panicked ally to immediately restore all Morale or mental-stability tags to the rest of the squad.
+*   **[Inspiring Terror]:** You can use Presence to force enemies with lower Power Scales to surrender or break formation.
+*   **[Iron Will]:** You are entirely immune to magical or psychic fear and mind-control effects.
+
+**Imperial Guardsman**
+*   **[Squad Tactics]:** Whenever you are adjacent to an ally, both of you gain `[Advantage]` on defensive maneuvers.
+*   **[Hold the Line]:** You cannot be knocked prone or forcibly moved by attacks of the same or lower Power Scale.
+*   **[Meatgrinder Survivor]:** You automatically succeed on Fortitude checks made to survive extreme starvation, trench rot, or exhaustion.
+
+**Sister of Battle**
+*   **[Fanatic]:** Your unyielding faith acts as a pseudo-`[Metaphysical]` defense, allowing you to resist magical trauma with pure Fortitude.
+*   **[Acts of Faith]:** Once per combat, you can turn any failed combat check into a baseline success through sheer divine intervention.
+*   **[Holy Promethium]:** Your thermal weapons (flamers, meltas) ignore `[Resistant: Thermal]` tags on heretics, mutants, or demons.
+
+**Sanctioned Psyker**
+*   **[Volatile]:** You channel immense warp energy. You gain `[Advantage]` on spellcasting, but any non-success triggers the Anomaly Table.
+*   **[Warp Conduit]:** You can burn 1 stage of your own Trauma Track to cast a spell without spending an AP or a Slot.
+*   **[Telepathica]:** You can project your thoughts into the minds of others across vast distances, enabling silent squad communication.
+
+**Ork Boy**
+*   **[WAAAGH!]:** The more Orks present, the stronger you get. Your crude, broken weapons somehow function perfectly due to gestalt psychic belief.
+*   **[Choppa/Slugga]:** You generate +1 Success on all melee attacks when charging directly at an enemy.
+*   **[Sporeborn]:** If you are killed, you release spores that will eventually grow into new Orks, ensuring your legacy continues. (Narrative only).
+
+{{pageNumber,auto}}
+
+\page
+**Eldar Ranger**
+*   **[Sniper]:** You suffer no penalties for firing at extreme distances, and your ranged attacks ignore standard cover.
+*   **[Wraith-Slip]:** You can move through dense foliage, ruins, or hazardous terrain at full speed without leaving a physical trace.
+*   **[Path of the Outcast]:** You easily blend in with alien societies, underworld hubs, and mercenary bands, avoiding immediate hostile reactions.
+
+**Rogue Trader**
+*   **[Wealthy]:** You effectively have unlimited standard currency. You never need to track credits for mundane or standard military purchases.
+*   **[Warrant of Trade]:** You possess a sacred writ allowing you to legally trade with xenos, mutants, and heretics without Imperial repercussion.
+*   **[Orbital Asset]:** Once per session, you can call in a macro-cannon strike or drop-pod reinforcement from your orbiting voidship.
+
+{{pageNumber,auto}}
+
+\page
+
+{{chapterCover}}
+
+# Appendices
+
+{{pageNumber,auto}}
+
+\page
+# The Multiverse – Origins, Authority, and Conflict
+
+## Origins: The Shattering
+The Multiverse was a singular reality torn apart by an ancient [Power Scale 4] civilization attempting to unify time. This cataclysm created the infinite dimensions. All current rift technology is "archaeo-tech," reverse-engineered from these original fragments.
+
+## The Hub: Zero-Point Station
+The only non-Euclidean construct outside of individual dimensions where [Material], [Digital], and [Metaphysical] domains coexist. It serves as the primary neutral trade hub.
+
+## Governance: The Architects & The Rift-Guard
+The "Architects" (a consortium of [Power Scale 4] entities) enforce "Stability Protocols" via the Rift-Guard. They prioritize containment over morality and will prune entire dimensions to protect the integrity of the Multiverse.
+
+## The Authority & Fugitive Factions
+Players define their allegiance through Faction Tags, which act as Mastery-level progression choices.
+
+### Authority (Stability-Focused)
+*   **[Rift-Guard]:** Stabilize [Volatile] actions with 1 AP (no Slot). Gains [Advantage: 2] to track anomalies.
+*   **[Entropy-Agent]:** Force a target to re-roll a successful action once per session.
+*   **[Seal-Breaker]:** Force-close any active Rift within 300 feet.
+
+### Fugitive (Outlaw-Focused)
+*   **[Wayfarer]:** Open a "Dirty Rift" for 2 AP (grants the [Volatile] tag to the action).
+*   **[Void-Walker]:** Invisible to Architect tracking tech; never triggers alarms.
+*   **[Anomaly]:** Immune to [Erasure]; ignore Scale Friction against [Power Scale 4] entities.
+
+## The [Warrant] Track
+The [Warrant] Track is a 3-Stage escalating threat tracker based on reckless dimensional behavior.
+
+*   **Trigger:** Using [Volatile] abilities or breaking the Law of Conservation (introducing high-power-scale tech into low-power-scale worlds).
+*   **Stage 1 - Observed:** Draws local attention or minor investigation.
+*   **Stage 2 - Hunted:** Draws Rift-Guard sentinels to actively pursue the anomaly.
+*   **Stage 3 - Erased:** Draws Architect-level intervention, resulting in devastating Boss encounters geared toward complete [Erasure].
+
+{{pageNumber,auto}}
+
+\page
+
+
+# Interaction & Damage
+
+Damage and interaction permissions define how combat and environment hazards resolve against entity states.
+
+## Domains of Damage
+
+* **[Kinetic]:** Direct physical impact, ballistic rounds, blade edges, crushing weights, or gravitational drops.
+* **[Thermal]:** Extreme temperatures, thermal lasers, plasma arcs, or super-cooled freezing effects.
+* **[Disruptive]:** Electromagnetic pulses (EMPs), raw data injection, sonic vibrations, or intrusive psychic shocks.
+* **[Entropy]:** Necrotic energy, environmental radiation, chemical corrosion, or rapid decay forces.
+
+## Interaction Permission Tags
+
+* **[Advantage / Disadvantage: Attribute]:** Abstracted modifier adding favorable or unfavorable dice to a specific functional approach pool.
+* **[Exploding]:** High-chaos or volatile assets. Rolling maximum values on a die grants an immediate additional roll.
+* **[Flatline]:** Lethal armor-piercing or definitive strikes. Completely bypasses standard damage mitigation tags unless overridden by an equivalent scale defense tag.
+* **[Networked]:** Actively transmitting or receiving digital signals. This tag is a mandatory requirement for any Cyber-Hacker or software-based interface attempt.
+* **[Attuned]:** Permanently bonded to a specific soul signature or unique biometric marker. Prevents unauthorized usage or remote manipulation until severed by Metaphysical or Digital purification.
+* **[Volatile]:** Unstable raw energy or magic. Triggers an automatic roll on the Multiverse Anomaly Table upon any failure condition, rather than just critical failures.
+
+## The Multiverse Anomaly Table
+
+When a failure triggers a **[Volatile]** asset (such as failing an unstable magic or tech check), roll 1d10:
+
+* **1-2: Catastrophic Rift** - Pulls the character into a random, hostile dimension or violently severs their connection to the universe.
+* **3-5: Devastating Backlash** - The spell or hack violently explodes. The user and all entities within Close Range take a [Flatline] hit of [Entropy] or [Disruptive] damage.
+* **6-8: Localized Physics Glitch** - Gravity inverts, or time stutters, inflicting [Disadvantage: 2] on all characters for the encounter.
+* **9: Volatile Surge** - The intended action succeeds, but deals 1 Trauma Point to the caster/user.
+* **10: Cosmic Boon** - A glitch in the matrix. The action succeeds perfectly, and the character temporarily gains [+1 Scale Shift] for the remainder of the encounter.
+
+{{pageNumber,auto}}
+
+\page
+
+
+# Cross-Universe Physics
+
+When realities collide, the fundamental physics governing technology and magic can fail, corrupt, or alter depending on the host dimension.
+
+## Technological Disparity & The Grid
+
+### The [Grid-Locked] Tag
+Advanced technology brought into lower-tech worlds will function based on its original parameters, but it cannot be replenished locally. Ammunition depletion or power-cell exhaustion permanently grants the asset the **[Dead]** tag until returned to an appropriate power scale reality or jerry-rigged with extreme effort.
+
+### Societal Reaction & The [Anomaly] Tag
+Wielding highly advanced technology (e.g., a plasma rifle) in a primitive world grants [Advantage: 2] on Awe or Intimidation checks. However, it permanently marks the user with the **[Anomaly]** tag, making them a prime target for local authorities, warlords, or deities.
+
+## Divinity, Magic, & Disconnection
+
+### The [Severed] Tag
+Crossing into a reality entirely devoid of your specific magical weave, divine pantheon, or mystical source immediately severs your connection. This nullifies all abilities tied to the **[Metaphysical]** tag until a new link is established.
+
+### Source Manifestation & Tag Translation
+When a severed entity manages to reconnect to a local power source (e.g., a Paladin drawing power from a Sci-Fi Machine God instead of their home deity), the underlying math and dice pools remain identical. However, the physical manifestation and output tags change. For instance, what used to deal Radiant damage now deals [Disruptive] or EMP damage.
+
+{{pageNumber,auto}}
+
+\page
+
+
+# The Economy
+
+Currency is abstracted to facilitate fast narrative play and cross-dimensional parity without tracking specific gold pieces or credits.
+
+## The Multiverse Exchange Matrix
+
+Wealth is represented as a persistent Grade that dictates what a character can effortlessly acquire.
+
+* **[Wealth: 0] Destitute:** Can barely afford standard daily rations. Survival is day-to-day.
+* **[Wealth: 1] Working Class:** Can afford basic ammunition, cheap inns, minor gear repairs, and standard travel fare.
+* **[Wealth: 2] Professional:** Capable of maintaining a reliable vehicle, paying for sterile surgical procedures, and affording standard bribes.
+* **[Wealth: 3] Elite:** Has access to heavy or illegal ordnance, specialized cybernetics, or ownership of a small starship.
+* **[Wealth: 4] Aristocrat / Executive:** Can field a private mercenary army, purchase top-tier resurrection magic, or own vast corporate assets.
+* **[Wealth: 5] Cosmic:** Capable of crashing planetary economies or purchasing entire orbital stations.
+
+## Dimensional Transit & Currency Translation
+
+The stability of the portal or rift dictates the value of physical currency across universes.
+
+* **Stable Rifts:** Officially recognized or inherently stable rifts automatically convert currency values, translating the host's wealth grade directly into the local equivalent (e.g., gold bars naturally swap out for high-value credit chips).
+* **Anomalous Rifts:** Unstable or violent rifts do not convert assets. The character's physical wealth is branded with the **[Incompatible]** tag, dropping their functional purchasing power to [Wealth: 0] until they find a specialized broker or convert raw materials.
+
+{{pageNumber,auto}}
+
+\page
+
+{{backCover}}
+
+# The Multiverse Awaits
+
+**Reality is bleeding.**
+
+The Multiverse was shattered long ago by forces beyond comprehension, leaving an infinite expanse of fractured dimensions, temporal anomalies, and unstable rifts. Now, you are a Wayfarer—a survivor thrown into the chaos of Zero-Point Station, the ultimate cross-dimensional hub. 
+
+*The Multiverse TTRPG* is a blazing-fast, class-based, tag-driven d10 dice pool system that lets you play anyone, from anywhere. Form a crew of Cyberpunk netrunners, high-fantasy wizards, post-apocalyptic scavengers, and grimdark space marines. Leverage narrative permissions instead of tedious math. Engage in brutal, cinematic combat using the dynamic Action Economy. And above all, avoid the gaze of the Architects and their ruthless Rift-Guard as you exploit the anomalies of reality for fame, fortune, or simple survival.
+
+The rifts are open. Where will you jump?
+___
+
+For use with The Multiverse TTRPG Core Rules. Jump the rift and survive!

@@ -1,0 +1,24 @@
+name: "Ruleset Errata & Balancing Report"
+description: "Submit a ruleset contradiction, balance edge case, or terminology discrepancy in docs/2606/."
+title: "[ERRATA]: "
+labels: ["errata", "ruleset"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting ruleset feedback!
+  - type: input
+    id: section
+    attributes:
+      label: Target Section / Book
+      description: E.g., docs/2606/02-Book-II-The-Laws-of-Reality/01-Combat-Physics.md
+      placeholder: docs/2606/...
+    validations:
+      required: true
+  - type: textarea
+    id: discrepancy
+    attributes:
+      label: Discrepancy & Mechanical Impact
+      description: Detail the mechanical contradiction or balancing loophole.
+    validations:
+      required: true

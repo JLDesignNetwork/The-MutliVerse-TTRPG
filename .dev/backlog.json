@@ -1,0 +1,119 @@
+{
+  "scope": "Project-Wide Unified Backlog",
+  "version": "2606.1.0-bs",
+  "items": [
+    {
+      "id": "PROJ-TODO-01",
+      "section": "## Governance & Developer Standards",
+      "link": "README.md",
+      "title": "Implement Unified JLDN Agent Governance & Dev Standards",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2606.1.0-bs",
+      "details": "Codified .agents/AGENTS.md and .dev/ generational architecture establishing unified JLDN development standards, [DOMAIN]-[TYPE]-[NN] taxonomy, macOS M1 environment rules, and maintenance session lifecycle triggers matching Vampire-Ruleset.",
+      "created_at": "2026-06-16T22:26:58+02:00"
+    },
+    {
+      "id": "PROJ-TODO-02",
+      "section": "## CI/CD Automation & Quality Assurance",
+      "link": ".github/workflows/lint.yml",
+      "title": "Setup GitHub Actions Markdown Link & Lint CI/CD Pipeline",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2606.1.0-bs",
+      "details": "Created GitHub Actions CI/CD workflow (.github/workflows/lint.yml) and automated audit script (.github/scripts/validate_workspace.py) to automatically validate internal anchor cross-references, verify backlog schemas, and lint Markdown syntax on every push and pull request to main.",
+      "created_at": "2026-06-17T17:00:07+02:00"
+    },
+    {
+      "id": "PROJ-TODO-03",
+      "section": "## Governance & Community Guidelines",
+      "link": "CONTRIBUTING.md",
+      "title": "Author Community & Editorial Guidelines (CONTRIBUTING.md)",
+      "status": "completed",
+      "priority": "medium",
+      "protection": "protected",
+      "existed_since": "2606.1.0-bs",
+      "details": "Authored comprehensive CONTRIBUTING.md at the repository root detailing guidelines for tag-based ruleset contributions, conversion archives, PR requirements, Markdown standards, and Red Team audit review workflows.",
+      "created_at": "2026-06-17T17:00:07+02:00"
+    },
+    {
+      "id": "PROJ-TODO-04",
+      "section": "## Project Infrastructure & GVS Versioning",
+      "link": "CHANGELOG.md",
+      "title": "Initialize Generational Versioning Schema & Hub Architecture",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2606.1.0-bs",
+      "details": "Initialized GVS 2606.1.0-bs baseline, root CHANGELOG.md, .gitattributes LF normalization, .gitignore policies, and Generation 2606 development hub.",
+      "created_at": "2026-06-17T17:00:07+02:00"
+    },
+    {
+      "id": "PROJ-TODO-05",
+      "section": "## Monorepo & Package Management",
+      "link": "pnpm-workspace.yaml",
+      "target_file": "pnpm-workspace.yaml",
+      "title": "Standardize Root Monorepo pnpm-workspace.yaml Packages Configuration",
+      "status": "completed",
+      "priority": "low",
+      "protection": "protected",
+      "existed_since": "2606.1.0-bs",
+      "details": "Configured root pnpm-workspace.yaml with `packages: ['.web']` and unified build allowances to ensure clean workspace package resolution from root.",
+      "created_at": "2026-08-14T16:09:04+02:00"
+    },
+    {
+      "id": "PROJ-TODO-06",
+      "section": "## Repository Hygiene & Tooling",
+      "link": ".dev/2606/book-maps/tmv-architecture.map.json",
+      "target_file": ".dev/2606/book-maps/tmv-architecture.map.json",
+      "title": "Consolidate Architecture Blueprint Map into Generational Hub",
+      "status": "completed",
+      "priority": "low",
+      "protection": "protected",
+      "existed_since": "2606.1.0-bs",
+      "details": "Removed redundant root-level tmv-architecture.map.json in favor of canonical .dev/2606/book-maps/tmv-architecture.map.json to keep repository root clean.",
+      "created_at": "2026-08-14T16:09:04+02:00"
+    },
+    {
+      "id": "PROJ-TODO-07",
+      "section": "## Repository Hygiene & Tooling",
+      "link": ".agents/notes/",
+      "target_file": ".agents/notes/",
+      "title": "Migrate .ag/ Directory Contents to .agents/ and Update References",
+      "status": "completed",
+      "priority": "low",
+      "protection": "protected",
+      "existed_since": "2606.1.0-bs",
+      "details": "Migrated historical notes from .ag/notes/ (full_file_audit.md, project_audit.md) into .agents/notes/, updated all internal path references from .ag/ to .agents/, and removed the legacy .ag/ folder.",
+      "created_at": "2026-08-14T16:09:04+02:00"
+    },
+    {
+      "id": "PROJ-TODO-08",
+      "section": "## CI/CD Automation & Quality Assurance",
+      "link": ".github/scripts/validate_workspace.py",
+      "target_file": ".github/scripts/validate_workspace.py",
+      "title": "Update CI/CD Validator for docs/ and .books/ SRD Lifecycle",
+      "status": "completed",
+      "priority": "medium",
+      "protection": "protected",
+      "existed_since": "2606.1.0-bs",
+      "details": "Enhanced .github/scripts/validate_workspace.py to validate frontmatter schemas, parent_ruleset_file linkages, and micro-anchors across docs/2606/ and supplements matching Vampire-Ruleset's CI validator.",
+      "created_at": "2026-08-14T16:15:53+02:00"
+    },
+    {
+      "id": "PROJ-TODO-09",
+      "section": "## Release Management & Milestones",
+      "link": "CHANGELOG.md",
+      "target_file": "CHANGELOG.md",
+      "title": "Create Official Git Release Tag for Baseline v2606.1.0-bs",
+      "status": "pending",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2606.1.0-bs",
+      "details": "Create official Git release tag (v2606.1.0-bs) on GitHub marking the completion of JLDN dev standards, agent governance, and generational architecture setup.",
+      "created_at": "2026-08-14T16:20:04+02:00"
+    }
+  ]
+}

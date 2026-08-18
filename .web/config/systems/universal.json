@@ -1,0 +1,7 @@
+{
+  "system": "Universal",
+  "pathTags": [
+    { "name": "Veteran", "benefit": "Gain +1 {{FORTITUDE_REF}} when facing familiar threats.", "playstyle": "Defensive" },
+    { "name": "Technician", "benefit": "Gain +1 {{INSIGHT_REF}} when interacting with complex machinery.", "playstyle": "Utility" }
+  ]
+}

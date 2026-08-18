@@ -1,0 +1,692 @@
+/* ==========================================================================
+   The Multiverse TTRPG Framework — Master Datapad & PDF Reader Stylesheet
+   Version: 2606.1.0-bs | Book Version: 1.0
+   Author: Jeff Langdon (JLDN)
+   ========================================================================== */
+
+/* --- 1. Design Tokens & Theme Variables --- */
+:root {
+    /* Fonts & Structure */
+    --terminal-font: 'Courier New', monospace;
+    --terminal-line-height: 1.25em;
+
+    /* Backgrounds */
+    --terminal-bg-desk: #06080c;
+    --terminal-bg-page: #0d1117;
+    --terminal-bg-element: #161b22;
+    --terminal-bg-header: #21262d;
+    --terminal-bg-black: #000000;
+    --terminal-bg-overlay: rgba(13, 17, 23, 0.85);
+
+    /* Text Colors */
+    --terminal-font-color: #58a6ff;
+    --terminal-text-header: #c1c1bc80;
+    --terminal-text-table: #c9d1d9;
+    --terminal-text-list: #8b949e;
+    --terminal-text-link: #a5d6ff;
+    --terminal-text-highlight: #ff8f00;
+
+    /* Accents & Borders */
+    --terminal-accent-color: #3fb950;
+    --terminal-blockquote-color: #ff7b72;
+    --terminal-blocknote-color: #9544f7;
+
+    --terminal-border-default: 1px dashed var(--terminal-accent-color);
+    --terminal-border-solid: 1px solid var(--terminal-accent-color);
+    --terminal-border-subtle: 1px solid #30363d;
+
+    /* Shadows & Glows */
+    --terminal-shadow-green: 0px 0px 8px rgba(63, 185, 80, 0.6);
+    --terminal-shadow-green-subtle: 0 0 10px rgba(63, 185, 80, 0.4);
+    --terminal-shadow-red: 0px 0px 5px rgba(255, 123, 114, 0.4);
+    --terminal-shadow-blue: 0px 0px 8px rgba(88, 166, 255, 0.6);
+    --terminal-shadow-orange: 0px 0px 6px rgba(255, 143, 0, 0.5);
+    --terminal-shadow-purple: 0px 0px 5px rgba(149, 68, 247, 0.4);
+    --terminal-shadow-white: 0px 0px 3px rgba(201, 209, 217, 0.3);
+
+    /* Page Geometry (US Letter Standard: 8.5in x 11in) */
+    --page-width: 8.5in;
+    --page-height: 11in;
+}
+
+/* --- 2. Base Reset & Print Directives --- */
+@page {
+    size: letter;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* --- 3. Digital PDF Reader Workspace (Desk View) --- */
+html, body {
+    background-color: var(--terminal-bg-desk);
+    margin: 0;
+    padding: 0;
+    font-family: var(--terminal-font);
+    color: var(--terminal-font-color);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    gap: 30px; /* Space between pages in PDF reader view */
+}
+
+/* --- 4. Physical Page Container (.page) --- */
+.page {
+    width: var(--page-width);
+    height: var(--page-height);
+    min-height: var(--page-height);
+    max-height: var(--page-height);
+    
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    
+    /* Page Padding: Top, Right, Bottom, Left */
+    padding: 0.8in 0.6in 0.8in 0.6in;
+    box-sizing: border-box;
+    
+    background-image: none;
+    background-color: var(--terminal-bg-page);
+    font-family: var(--terminal-font);
+    color: var(--terminal-font-color);
+    text-align: justify;
+    line-height: var(--terminal-line-height);
+    font-size: 8.5pt;
+    
+    /* 2-Column Base Layout */
+    column-count: 2;
+    column-fill: auto;
+    column-gap: 0.9cm;
+    column-width: 8cm;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 0.9cm;
+    -webkit-column-width: 8cm;
+    
+    /* Reader Desk Drop Shadow */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9), 0 0 1px rgba(88, 166, 255, 0.2);
+    
+    page-break-after: always;
+    break-after: page;
+}
+
+/* Datapad Bottom Trim Overlay */
+.page::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 135px;
+    background-image: url("https://imgur.com/Vr7BmFe.png");
+    background-size: 100% auto;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    z-index: 10;
+    pointer-events: none;
+    opacity: 0.99;
+    mix-blend-mode: screen;
+    transform: scaleY(-1) !important;
+}
+
+/* --- 5. Precision Headings & Typography --- */
+.page h1,
+.page h2,
+.page h3,
+.page h4,
+.page h5,
+.page h6 {
+    font-family: var(--terminal-font);
+    text-transform: uppercase;
+    text-align: left;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    clear: both;
+    break-after: avoid;
+    page-break-after: avoid;
+}
+
+/* H1: Main Page Header (Spans across both columns with Green Dashed Line) */
+.page h1 {
+    font-size: 1.85rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: var(--terminal-accent-color);
+    text-shadow: var(--terminal-shadow-green);
+    border-bottom: 2px dashed var(--terminal-accent-color);
+    padding-bottom: 4px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    column-span: all;
+    -webkit-column-span: all;
+}
+
+/* H2: Section Header (Inside column with Cyan Dashed Line and Command Prompt) */
+.page h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.25;
+    color: var(--terminal-font-color);
+    text-shadow: var(--terminal-shadow-blue);
+    border-bottom: 1px dashed var(--terminal-font-color);
+    padding-bottom: 3px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+.page h2::before {
+    content: ">>_ ";
+    color: var(--terminal-font-color);
+    font-weight: bold;
+}
+
+/* H3: Sub-section Header (Orange Highlight with Orange Dashed Line) */
+.page h3 {
+    font-size: 1.02rem;
+    font-weight: bold;
+    line-height: 1.25;
+    color: var(--terminal-text-highlight);
+    text-shadow: var(--terminal-shadow-orange);
+    border-bottom: 1px dashed var(--terminal-text-highlight);
+    padding-bottom: 3px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+/* H4: Topic Header (Purple with Purple Dashed Line) */
+.page h4 {
+    font-size: 0.92rem;
+    font-weight: bold;
+    line-height: 1.25;
+    color: var(--terminal-blocknote-color);
+    text-shadow: var(--terminal-shadow-purple);
+    border-bottom: 1px dashed var(--terminal-blocknote-color);
+    padding-bottom: 2px;
+    margin-top: 14px;
+    margin-bottom: 6px;
+}
+
+/* H5: Minor Header (Red with Red Dashed Line) */
+.page h5 {
+    font-size: 0.85rem;
+    font-weight: bold;
+    line-height: 1.25;
+    color: var(--terminal-blockquote-color);
+    text-shadow: var(--terminal-shadow-red);
+    border-bottom: 1px dashed var(--terminal-blockquote-color);
+    padding-bottom: 2px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+/* H6: Meta / Table Header (Silver with Silver Dashed Line) */
+.page h6 {
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.25;
+    color: var(--terminal-text-table);
+    text-shadow: var(--terminal-shadow-white);
+    border-bottom: 1px dashed var(--terminal-text-table);
+    padding-bottom: 2px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.page p {
+    margin-top: 0;
+    margin-bottom: 8px;
+    line-height: 1.25em;
+}
+
+.page strong {
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+}
+
+.page em {
+    color: var(--terminal-text-link);
+    font-style: italic;
+}
+
+/* --- 6. Table Styling (Holographic / Code & .wide Spanning) --- */
+.page table,
+.page table.wide,
+.page .wide {
+    background-color: var(--terminal-bg-element);
+    color: var(--terminal-text-table);
+    border: var(--terminal-border-solid);
+    width: 100%;
+    margin: 12px 0;
+    border-collapse: collapse;
+    font-size: 7.5pt;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    clear: both;
+    column-span: all;
+    -webkit-column-span: all;
+}
+
+.page thead th {
+    background-color: var(--terminal-bg-header);
+    color: var(--terminal-accent-color);
+    border-bottom: 2px solid var(--terminal-accent-color);
+    text-transform: uppercase;
+    padding: 4px 6px;
+    text-align: left;
+}
+
+.page tbody tr {
+    border-bottom: var(--terminal-border-subtle);
+}
+
+.page tbody tr:nth-child(odd) {
+    background-color: var(--terminal-bg-page);
+}
+
+.page tbody td {
+    padding: 3px 6px;
+}
+
+/* --- 7. Inline Code Styling --- */
+.page code {
+    background-color: var(--terminal-bg-element);
+    color: var(--terminal-blockquote-color);
+    font-family: var(--terminal-font);
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: var(--terminal-border-subtle);
+    font-size: 0.9em;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+/* --- 8. Blockquotes / Intercepted Transmissions & Blocknotes --- */
+
+/* Standard Intercepted Transmission (Spans All Columns, Red Glow) */
+.page blockquote:not(.blocknote) {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    clear: both;
+    background-color: var(--terminal-bg-black);
+    color: var(--terminal-blockquote-color);
+    border: 1px solid var(--terminal-blockquote-color);
+    border-left: 8px solid var(--terminal-blockquote-color);
+    font-family: var(--terminal-font);
+    padding: 10px 14px;
+    margin: 12px 0 14px 0;
+    box-shadow: var(--terminal-shadow-red);
+    font-size: 8pt;
+    line-height: 1.35;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    column-span: all;
+    -webkit-column-span: all;
+}
+
+.page blockquote:not(.blocknote) p {
+    margin: 0;
+}
+
+.page blockquote:not(.blocknote) p + p {
+    margin-top: 6px;
+}
+
+/* Blocknote: Conversion & Universal Rule Callout (In-Column, Purple Glow) */
+.page blockquote.blocknote,
+.page blockquote:has(.blocknote) {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    clear: both;
+    background-color: var(--terminal-bg-black);
+    color: var(--terminal-blocknote-color);
+    border: 1px solid var(--terminal-blocknote-color);
+    border-left: 8px solid var(--terminal-blocknote-color);
+    font-family: var(--terminal-font);
+    padding: 10px 14px;
+    margin: 10px 0 12px 0;
+    box-shadow: var(--terminal-shadow-purple);
+    font-size: 8pt;
+    line-height: 1.35;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    column-span: unset !important;
+    -webkit-column-span: unset !important;
+}
+
+.page blockquote.blocknote h3,
+.page blockquote.blocknote h4,
+.page blockquote.blocknote strong {
+    color: #ffffff;
+    border-bottom: 1px dashed var(--terminal-blocknote-color);
+    padding-bottom: 2px;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.page blockquote.blocknote p {
+    margin: 0;
+    color: var(--terminal-text-table);
+}
+
+.page blockquote.blocknote p + p {
+    margin-top: 6px;
+}
+
+.page blockquote.blocknote ul,
+.page blockquote.blocknote ol {
+    margin-top: 6px;
+    margin-bottom: 0;
+    padding-left: 1.2rem;
+}
+
+.page blockquote.blocknote li {
+    color: var(--terminal-text-table);
+    margin-bottom: 2px;
+}
+
+.page blockquote.blocknote li::marker {
+    color: var(--terminal-blocknote-color);
+}
+
+.page blockquote.blocknote code {
+    color: var(--terminal-blocknote-color);
+    border-color: var(--terminal-blocknote-color);
+}
+
+/* --- 9. Lists & Links --- */
+.page ul,
+.page ol {
+    color: var(--terminal-text-list);
+    padding-left: 1.4em;
+    margin-bottom: 0.8em;
+    line-height: 1.25em;
+}
+
+.page li {
+    margin-bottom: 3px;
+}
+
+.page li::marker {
+    color: var(--terminal-accent-color);
+}
+
+.page a {
+    color: var(--terminal-text-link);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--terminal-text-link);
+}
+
+/* --- 10. Page Number Badges --- */
+.page .pageNumber {
+    position: absolute;
+    width: 70px;
+    right: 30px;
+    bottom: 10px;
+    background-color: var(--terminal-bg-element);
+    color: var(--terminal-blockquote-color);
+    font-family: var(--terminal-font);
+    padding: 2px 6px;
+    border-radius: 4px;
+    border: var(--terminal-border-subtle);
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    z-index: 20;
+}
+
+.page:nth-child(even) .pageNumber {
+    left: 30px;
+    right: auto;
+}
+
+/* --- 11. Custom Page Presentation Classes --- */
+
+/* Front Cover */
+.page.frontCover,
+.page:has(.frontCover) {
+    column-count: 1;
+    -webkit-column-count: 1;
+    padding: 0.8in 0.6in;
+    position: relative;
+    display: block;
+}
+
+.page.frontCover h1,
+.page.frontCover h3,
+.page:has(.frontCover) h1,
+.page:has(.frontCover) h3 {
+    text-align: center;
+    position: relative;
+    z-index: 5;
+}
+
+.page.frontCover h1,
+.page:has(.frontCover) h1 {
+    color: var(--terminal-accent-color) !important;
+    font-family: var(--terminal-font) !important;
+    font-size: 3.2rem !important;
+    font-weight: 900 !important;
+    margin-top: 1.4in !important;
+    margin-bottom: 0 !important;
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+    border-bottom: 1px dashed var(--terminal-accent-color) !important;
+    padding-bottom: 6px !important;
+    letter-spacing: 0.04em !important;
+    -webkit-text-stroke: 1.5px #000000 !important;
+    text-shadow: 2px 2px 0px #000000, -2px -2px 0px #000000, 2px -2px 0px #000000, -2px 2px 0px #000000, 0 0 12px rgba(63, 185, 80, 0.7) !important;
+}
+
+.page.frontCover h3,
+.page:has(.frontCover) h3 {
+    color: var(--terminal-text-highlight) !important;
+    font-family: var(--terminal-font) !important;
+    font-size: 1.35rem !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    background-color: var(--terminal-bg-overlay) !important;
+    border-bottom: none !important;
+    display: block !important;
+    width: 100% !important;
+    padding: 6px 0 !important;
+    margin-top: 12px !important;
+    letter-spacing: 0.08em !important;
+    text-shadow: 0 0 8px rgba(255, 143, 0, 0.5) !important;
+}
+
+.page.frontCover .footnote,
+.page:has(.frontCover) .footnote {
+    position: absolute;
+    bottom: 35px;
+    left: 45px;
+    right: 45px;
+    z-index: 10;
+    text-align: left;
+    background-color: var(--terminal-bg-overlay);
+    color: var(--terminal-text-highlight);
+    padding: 6px 14px;
+    border: var(--terminal-border-solid);
+    border-radius: 4px;
+    font-family: var(--terminal-font);
+    text-transform: uppercase;
+    font-size: 8pt;
+    box-shadow: var(--terminal-shadow-green-subtle);
+}
+
+.page.frontCover .footnote p,
+.page:has(.frontCover) .footnote p {
+    margin: 0;
+}
+
+/* Table of Contents */
+.page.toc,
+.page:has(.toc) {
+    column-count: 2;
+}
+
+.page.toc::after,
+.page:has(.toc)::after {
+    display: inline-block;
+}
+
+.page.toc ul span:last-child,
+.page:has(.toc) ul span:last-child {
+    color: var(--terminal-font-color);
+}
+
+/* Chapter Cover */
+.page.chapterCover,
+.page:has(.chapterCover) {
+    column-count: 1;
+    -webkit-column-count: 1;
+    padding: 0.8in 0.6in;
+    position: relative;
+    text-align: left;
+}
+
+.page.chapterCover .chapterCover,
+.page:has(.chapterCover) .chapterCover {
+    position: absolute;
+}
+
+.page.chapterCover img,
+.page:has(.chapterCover) img,
+.page img {
+    z-index: 0;
+    pointer-events: none;
+}
+
+.page.chapterCover h1,
+.page:has(.chapterCover) h1 {
+    position: relative;
+    z-index: 5;
+    margin-top: 1.55cm;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    width: 100%;
+    color: var(--terminal-accent-color);
+    border-bottom: 1px dashed var(--terminal-accent-color);
+    padding-bottom: 4px;
+    text-shadow: var(--terminal-shadow-green);
+}
+
+.page.chapterCover h2,
+.page:has(.chapterCover) h2 {
+    position: relative;
+    z-index: 5;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: left;
+    color: var(--terminal-font-color);
+    border-bottom: 1px dashed var(--terminal-accent-color);
+    padding-bottom: 4px;
+    text-shadow: var(--terminal-shadow-blue);
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.page.chapterCover h2::before,
+.page:has(.chapterCover) h2::before {
+    content: ">>_ " !important;
+    color: var(--terminal-font-color) !important;
+    font-weight: bold !important;
+}
+
+/* Back Cover */
+.page.backCover,
+.page:has(.backCover) {
+    column-count: 1;
+    -webkit-column-count: 1;
+    padding: 1.2in 1in;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.82) 480px, rgba(0, 0, 0, 0.1) 100%), url("https://imgur.com/RSsH9sL.png");
+    background-size: cover;
+    background-position: -120px 0px;
+}
+
+.page.backCover .backCover,
+.page:has(.backCover) .backCover {
+    background-image: unset;
+}
+
+.page.backCover h1,
+.page:has(.backCover) h1 {
+    color: var(--terminal-accent-color);
+    border-bottom: var(--terminal-border-default);
+    margin-top: 0;
+    max-width: 440px;
+}
+
+.page.backCover p,
+.page.backCover ul,
+.page:has(.backCover) p,
+.page:has(.backCover) ul {
+    max-width: 440px;
+}
+
+.page.backCover hr,
+.page:has(.backCover) hr {
+    background-image: none;
+    border: 0;
+    border-bottom: var(--terminal-border-default);
+    height: 1px;
+    margin: 20px 0;
+    max-width: 440px;
+}
+
+/* Command Prompt Prefixes on Normal Pages */
+.page:not(.chapterCover):not(.frontCover) h2::before {
+    content: ">>_ ";
+    color: var(--terminal-font-color);
+    font-weight: bold;
+}
+
+.page.frontCover .footnote p:first-child::before,
+.page:has(.frontCover) .footnote p:first-child::before {
+    content: ">>_ ";
+    color: var(--terminal-font-color);
+    font-weight: bold;
+}
+
+/* Hide Bottom Trim on Cover Pages */
+.page.frontCover::after,
+.page.backCover::after,
+.page:has(.frontCover)::after,
+.page:has(.backCover)::after {
+    display: none;
+}
+
+/* --- 12. Print Media Rules --- */
+@media print {
+    html, body {
+        background: none;
+        padding: 0;
+        gap: 0;
+        display: block;
+    }
+
+    .page {
+        box-shadow: none;
+        margin: 0;
+        page-break-after: always;
+        break-after: page;
+    }
+}

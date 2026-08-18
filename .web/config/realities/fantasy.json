@@ -1,0 +1,14 @@
+{
+  "system": "Fantasy",
+  "tokens": {
+    "{{PATHOGEN_REF}}": "Disease",
+    "{{PRESENCE_REF}}": "Presence",
+    "{{FORTITUDE_REF}}": "Fortitude",
+    "{{IMPACT_REF}}": "Damage",
+    "{{MAGIC_REF}}": "Spells",
+    "{{DEFENSE_REF}}": "Armor Class",
+    "{{HEALTH_REF}}": "Health",
+    "{{TIER_REF}}": "Level",
+    "{{INSIGHT_REF}}": "Insight"
+  }
+}

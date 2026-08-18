@@ -60,7 +60,8 @@ def main():
     for s_dir in search_dirs:
         if os.path.exists(s_dir):
             md_files.extend(glob.glob(f"{s_dir}/**/*.md", recursive=True))
-    md_files.extend(["README.md", "CONTRIBUTING.md", "LICENSE.md", "CHANGELOG.md"])
+    md_files.extend(glob.glob(".github/**/*.md", recursive=True))
+    md_files.extend(["README.md", "LICENSE.md", "CHANGELOG.md"])
     md_files = sorted(list(set([os.path.normpath(f) for f in md_files if os.path.exists(f)])))
 
     anchor_index = {}

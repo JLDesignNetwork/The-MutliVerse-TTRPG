@@ -1,0 +1,16 @@
+{
+  "ideas": [
+    {
+      "id": "DOCS-IDEA-01",
+      "status": "promoted",
+      "details": "Direct Line-Level Micro-Anchoring: Insert invisible HTML line-level micro-anchors (<a id=\"slug\"></a>) into every individual tag, condition, approach, rule, and adversary across Books I-V and Appendices. Enables 100% precise line-level linking without markdown header bloat.",
+      "resolution": "Promoted to DOCS-TODO-13 and completed across all 41 markdown files with 226 micro-anchors."
+    },
+    {
+      "id": "WEB-IDEA-01",
+      "status": "proposed",
+      "details": "Single Source of Truth System Libraries: Decouple parser logic in .web/services/parsers/ by introducing strict TypeScript schema (SystemLibrary.ts) and system JSON configs (dnd5e.json, cyberpunk-red.json) enabling dynamic documentation rendering.",
+      "resolution": ""
+    }
+  ]
+}

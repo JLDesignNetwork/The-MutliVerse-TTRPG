@@ -1,0 +1,28 @@
+{
+  "upgrades": [
+    {
+      "triggerTag": "Action Surge",
+      "name": "Limit Break",
+      "cost": 10,
+      "benefit": "You can push your body to the absolute limit. Once per day, take an additional action. This causes 1 point of Stability stress."
+    },
+    {
+      "triggerTag": "Sneak Attack",
+      "name": "Vitals Expert",
+      "cost": 8,
+      "benefit": "Your precision attacks bypass basic armor plating completely."
+    },
+    {
+      "triggerTag": "Rage",
+      "name": "Frenzied State",
+      "cost": 8,
+      "benefit": "When you enter a Frenzied State, you ignore the first instance of damage each round."
+    },
+    {
+      "triggerTag": "Second Wind",
+      "name": "Auto-Stim",
+      "cost": 6,
+      "benefit": "You gain an auto-stimulant injector that allows you to instantly recover from minor trauma once per encounter."
+    }
+  ]
+}

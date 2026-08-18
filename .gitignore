@@ -1,25 +1,39 @@
-# The Multiverse TTRPG Framework — .gitignore
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# 1. AI Agents, Development Configs & Staging (Gitignored by Default)
-.*/
+# IDE & Editor Workspaces
+.cursor/
+.vscode/
+.idea/
+.junie/
+.nova/
+.zed/
+.ai/
+.antigravitycli/
+_[*]/
 
-# Exception: Allow GitHub Actions workflows and CI scripts
-!.github/
-!.github/**
-
-# 2. Node & Web Application Builds
-node_modules/
-*.log*
-tsconfig.tsbuildinfo
-
-# 3. Presentation & Book Build Artifacts
-*.pdf
-
-# 4. Scratch & Temporary Files
+# Ephemeral Scratch & Temporary Files
+.agents/scratch/*
+!.agents/scratch/.gitkeep
 scratch/
 tmp/
 *.tmp
+*.log*
 
-# 5. OS & File System Artifacts
-.DS_Store
-Thumbs.db
+# Node & Next.js Build Artifacts
+node_modules/
+.next/
+out/
+build/
+dist/
+tsconfig.tsbuildinfo
+
+# PDF Binary Artifacts
+*.pdf
+books/**/pdf/*.pdf

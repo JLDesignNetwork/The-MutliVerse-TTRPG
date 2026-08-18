@@ -1,0 +1,23 @@
+name: "Web App Defect Report"
+description: "File a software bug or visual defect in the Next.js MultiVerse Companion web application."
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a web application defect!
+  - type: textarea
+    id: description
+    attributes:
+      label: Defect Description
+      description: What is happening versus what was expected?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction Steps
+      description: How can we reproduce this issue?
+    validations:
+      required: true

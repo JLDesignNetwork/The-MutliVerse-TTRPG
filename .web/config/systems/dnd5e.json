@@ -1,0 +1,231 @@
+{
+  "systemName": "Dungeons & Dragons 5e",
+  "slug": "dnd5e",
+  "version": "1.0.0",
+  "description": "Deterministic parsing library for Dungeons & Dragons 5e imports.",
+  "mappings": {
+    "approaches": {
+      "userExplanation": "D&D 5e uses 6 base attributes, which we map to the 5 Multiverse Approaches. STR becomes Force, DEX becomes Precision, CON becomes Fortitude, CHA becomes Presence, and the higher of INT or WIS becomes Insight. The character is then assigned a Base 12 array of [3, 3, 2, 2, 2]. We assign a '3' to your class's Primary Abilities. The remaining '3' (if your class only has one Primary Ability) is given to your highest remaining translated raw score (including modifiers). If there is a tie for the remaining top stats, the engine will leave the core point unassigned so you can resolve the tie manually.",
+      "logic": {
+        "scoreMapping": {
+          "1": "force",
+          "2": "precision",
+          "3": "fortitude",
+          "4": "insight",
+          "5": "insight",
+          "6": "presence"
+        },
+        "baseArray": [
+          3,
+          3,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    "powerScale": {
+      "userExplanation": "In the Multiverse, Power Scale represents your tier of play and determines your base inventory slots. Level 1-4 is Power Scale 1 (7 Slots). Level 5-10 is Power Scale 2 (9 Slots). Level 11-16 is Power Scale 3 (11 Slots). Level 17-20 is Power Scale 4 (13 Slots). You also import with Translation EXP based on your level, allowing you to buy tags.",
+      "logic": {
+        "tiers": [
+          {
+            "maxLevel": 4,
+            "scale": 1,
+            "expFormula": "(level - 1) * 6.25"
+          },
+          {
+            "maxLevel": 10,
+            "scale": 2,
+            "expFormula": "25 + ((level - 5) * 8.4)"
+          },
+          {
+            "maxLevel": 16,
+            "scale": 3,
+            "expFormula": "67 + ((level - 10) * 13)"
+          },
+          {
+            "maxLevel": 20,
+            "scale": 4,
+            "expFormula": "132 + ((level - 15) * 17.6)"
+          },
+          {
+            "maxLevel": 99,
+            "scale": 4,
+            "expFormula": "220 + ((level - 20) * 17.6)"
+          }
+        ]
+      }
+    },
+    "slotTaxes": {
+      "userExplanation": "Major items tax your inventory slots. Weapons, Armor, and Wondrous Items usually cost 1 slot. Mundane items and class features do not cost slots.",
+      "logic": {
+        "taxableTypes": [
+          "Weapon",
+          "Armor",
+          "Wondrous item",
+          "Ring",
+          "Rod",
+          "Staff",
+          "Wand",
+          "Potion"
+        ],
+        "defaultCost": 1
+      }
+    },
+    "pathTagDefinitions": {
+      "userExplanation": "Path Tags are extracted strictly based on an exact property Manifest. No guessing.",
+      "logic": {
+        "forbiddenTags": [
+          "strength score",
+          "dexterity score",
+          "constitution score",
+          "intelligence score",
+          "wisdom score",
+          "charisma score",
+          "hit points",
+          "wisdom saving throws",
+          "charisma saving throws",
+          "strength saving throws",
+          "constitution saving throws",
+          "dexterity saving throws",
+          "saving throws",
+          "proficiency",
+          "attunement",
+          "attunement slots",
+          "armor",
+          "shield",
+          "light armor",
+          "medium armor",
+          "heavy armor",
+          "simple weapons",
+          "martial weapons",
+          "languages",
+          "skill",
+          "speed",
+          "size",
+          "age",
+          "equipment",
+          "proficiencies",
+          "ability score improvement",
+          "choose an ability score",
+          "ability score increase",
+          "fey ancestry",
+          "darkvision",
+          "magical sleep",
+          "skill versatility",
+          "innate spells",
+          "blindsight",
+          "disguise kit",
+          "common",
+          "undercommon",
+          "elvish",
+          "goblin",
+          "common sign language",
+          "frightened",
+          "radiant",
+          "religion",
+          "insight",
+          "perception",
+          "investigation",
+          "persuasion",
+          "performance",
+          "athletics",
+          "disease",
+          "subclass",
+          "double-bladed scimitar",
+          "scimitar",
+          "longsword",
+          "greatsword"
+        ],
+        "summaryMap": {
+          "divine smite": "Aggressive: Spend resources to deal massive burst damage.",
+          "aura of protection": "Defensive: Passive buff to all saving throws for nearby allies.",
+          "retainers": "Utility: Gain three loyal assistants for scouting and daily tasks.",
+          "lay on hands": "Support: A pool of healing energy to revive or stabilize allies.",
+          "extra attack": "Aggressive: Make an additional attack when you take the Attack action.",
+          "athlete": "Mobility: You are exceptionally physically fit, granting you narrative permission for extreme climbing, leaping, and quick recovery.",
+          "weapon master": "Aggressive: Extensive training with various weapons grants you narrative permission to use them effectively.",
+          "action surge": "Aggressive: Push yourself beyond normal limits to act twice in a single exchange.",
+          "second wind": "Defensive: Catch your breath to instantly recover a portion of your stamina mid-battle.",
+          "sneak attack": "Aggressive: Exploit a foe's distraction or your own stealth to strike precisely at their vitals.",
+          "cunning action": "Mobility: Move with incredible agility, allowing you to dash, disengage, or hide rapidly.",
+          "rage": "Aggressive: Enter a primal battle fury that bolsters your physical force and resilience.",
+          "unarmored defense": "Defensive: Your reflexes or tough skin provide protection equivalent to wearing heavy armor.",
+          "spellcasting": "Magic: Gain the narrative permission to cast spells within your chosen magical tradition.",
+          "pact magic": "Magic: Wield powerful, easily replenished magic granted by an otherworldly patron.",
+          "wild shape": "Utility: Magically assume the shape of a beast you have seen before, gaining its physical traits.",
+          "bardic inspiration": "Support: Use inspiring words or music to enhance an ally's abilities.",
+          "martial arts": "Aggressive: Utilize specialized unarmed combat techniques and monastic weapons with lethal precision.",
+          "ki": "Magic: Harness the mystic energy of your body to perform extraordinary supernatural feats.",
+          "channel divinity": "Magic: Channel raw divine energy directly from your deity to fuel magical effects.",
+          "fighting style": "Passive: You have mastered a specific combat stance or weapon technique.",
+          "expertise": "Utility: You possess unparalleled skill in certain chosen areas, succeeding where others would fail.",
+          "reliable talent": "Utility: Your refined skills guarantee a baseline of success in your chosen specialties.",
+          "evasion": "Defensive: Your agility lets you dodge out of the way of certain area effects entirely.",
+          "uncanny dodge": "Defensive: React with lightning speed to halve the impact of an incoming attack.",
+          "danger sense": "Passive: You have an uncanny sense of when things nearby aren't as they should be.",
+          "reckless attack": "Aggressive: Throw aside all concern for defense to attack with desperate ferocity.",
+          "fast movement": "Mobility: Your base movement speed is noticeably faster than others of your race.",
+          "divine sense": "Utility: Sense the presence of strong evil or good near you.",
+          "font of magic": "Magic: Tap into a deep wellspring of magical energy within yourself.",
+          "metamagic": "Magic: Twist your spells to suit your needs, altering their fundamental properties.",
+          "eldritch invocations": "Magic: Fragments of forbidden knowledge that imbue you with abiding magical abilities.",
+          "mystic arcanum": "Magic: A secret of incredible power bestowed by your patron.",
+          "natural explorer": "Utility: You are a master of navigating the natural world.",
+          "favored enemy": "Passive: You have significant experience studying, tracking, and hunting a certain type of enemy.",
+          "primeval awareness": "Utility: Focus your awareness to sense nearby creatures of specific types.",
+          "indomitable": "Defensive: You can reroll a failed attempt to resist a hostile effect.",
+          "jack of all trades": "Utility: You can add a modicum of competence to any skill you haven't mastered.",
+          "song of rest": "Support: Soothing music or words help your wounded allies revitalize during a short rest.",
+          "countercharm": "Support: Musical notes or words of power disrupt mind-influencing effects.",
+          "deflect missiles": "Defensive: Use your reaction to catch or deflect a ranged weapon attack.",
+          "slow fall": "Mobility: Reduce any falling damage you take.",
+          "stunning strike": "Control: Interfere with the flow of ki in an opponent's body to stun them.",
+          "ki-empowered strikes": "Passive: Your unarmed strikes count as magical for overcoming resistances.",
+          "diamond soul": "Defensive: Your mastery of ki grants you proficiency in all saving throws.",
+          "empty body": "Utility: Use your ki to become invisible and resistant to damage.",
+          "flurry of blows": "Aggressive: Follow up your attacks with a rapid series of unarmed strikes.",
+          "patient defense": "Defensive: Focus your ki to dodge incoming attacks efficiently.",
+          "step of the wind": "Mobility: Use your ki to disengage or dash with incredible agility.",
+          "aura of courage": "Support: You and friendly creatures within your aura cannot be frightened.",
+          "cleansing touch": "Support: Use your action to end a spell on yourself or a willing creature.",
+          "divine intervention": "Support: Call upon your deity to directly intervene on your behalf.",
+          "destroy undead": "Control: Your channeling of divine energy can instantly destroy weaker undead.",
+          "turn undead": "Control: Present your holy symbol to force undead to flee from you."
+        },
+        "abstractedVocabulary": {
+          "disease": "{{PATHOGEN_REF}}",
+          "saving throws": "{{FORTITUDE_REF}}",
+          "saving throw": "{{FORTITUDE_REF}}",
+          "damage": "{{IMPACT_REF}}",
+          "spells": "{{MAGIC_REF}}",
+          "spell": "{{MAGIC_REF}}",
+          "armor class": "{{DEFENSE_REF}}",
+          "hit points": "{{HEALTH_REF}}",
+          "levels": "{{TIER_REF}}",
+          "level": "{{TIER_REF}}",
+          "strength": "force",
+          "dexterity": "precision",
+          "constitution": "fortitude",
+          "intelligence": "insight",
+          "wisdom": "insight",
+          "charisma": "presence"
+        },
+        "manifest": {
+          "subclass": "classes.subclassDefinition.name",
+          "classFeatures": "classes.classFeatures.definition.name",
+          "raceTraits": "race.racialTraits.definition.name",
+          "feats": "feats.definition.name",
+          "classModifiers": "modifiers.class.friendlySubtypeName",
+          "raceModifiers": "modifiers.race.friendlySubtypeName",
+          "backgroundModifiers": "modifiers.background.friendlySubtypeName",
+          "featModifiers": "modifiers.feat.friendlySubtypeName",
+          "customProficiencies": "customProficiencies.name",
+          "backgroundFeature": "background.customBackground.featuresBackground.featureName",
+          "standardBackgroundFeature": "background.definition.featureName",
+          "traits": "traits.personalityTraits.description"
+        }
+      }
+    }
+  }
+}

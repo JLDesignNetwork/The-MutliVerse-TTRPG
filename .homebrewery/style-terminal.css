@@ -1,0 +1,305 @@
+/* Datapad / Terminal Theme for The Multiverse TTRPG */
+/* Paste this entire block into the "Style" tab of Homebrewery V3 */
+
+:root {
+    /* Fonts & Structure */
+    --terminal-font: 'Courier New', monospace;
+    --terminal-line-height: 1em;
+
+    /* Backgrounds */
+    --terminal-bg-page: #0d1117;
+    --terminal-bg-element: #161b22;
+    --terminal-bg-header: #21262d;
+    --terminal-bg-black: #000000;
+    --terminal-bg-overlay: rgba(13, 17, 23, 0.85);
+
+    /* Text Colors */
+    --terminal-font-color: #58a6ff;
+    --terminal-text-header: #c1c1bc80;
+    --terminal-text-table: #c9d1d9;
+    --terminal-text-list: #8b949e;
+    --terminal-text-link: #a5d6ff;
+    --terminal-text-highlight: #ff8f0098;
+
+    /* Accents & Borders */
+    --terminal-accent-color: #3fb950;
+    --terminal-blockquote-color: #ff7b72;
+    --terminal-blocknote-color: #9544f7;
+
+    --terminal-border-default: 1px dashed var(--terminal-accent-color);
+    --terminal-border-solid: 1px solid var(--terminal-accent-color);
+    --terminal-border-subtle: 1px solid #30363d;
+
+    /* Shadows & Glows */
+    --terminal-shadow-green: 0px 0px 8px rgba(63, 185, 80, 0.6);
+    --terminal-shadow-green-subtle: 0 0 10px rgba(63, 185, 80, 0.4);
+    --terminal-shadow-red: 0px 0px 5px rgba(255, 123, 114, 0.4);
+    --terminal-shadow-blue: 0px 0px 8px rgba(88, 166, 255, 0.6);
+    --terminal-shadow-orange: 0px 0px 6px rgba(255, 143, 0, 0.5);
+    --terminal-shadow-purple: 0px 0px 5px rgba(149, 68, 247, 0.4);
+    --terminal-shadow-white: 0px 0px 3px rgba(201, 209, 217, 0.3);
+}
+
+.page {
+    /* Complete override of parchment to a dark terminal interface */
+    background-image: none;
+    background-color: var(--terminal-bg-page);
+    font-family: var(--terminal-font);
+    color: var(--terminal-font-color);
+    text-align: justify;
+    line-height: var(--terminal-line-height);
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 100%;
+        height: 135px;
+        background-image: url("https://imgur.com/Vr7BmFe.png");
+        background-size: 100% auto;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        z-index: 0;
+        pointer-events: none;
+        opacity: 0.99;
+        mix-blend-mode: screen;
+        transform: scaleY(-1) !important;
+    }
+}
+
+/* Headers */
+.page h1,
+.page h2,
+.page h3,
+.page h4,
+.page h5,
+.page h6 {
+    font-family: var(--terminal-font);
+    text-transform: uppercase;
+    border-bottom: var(--terminal-border-default);
+    margin-top: 20px;
+    text-align: left;
+}
+
+.page h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: var(--terminal-accent-color);
+    text-shadow: var(--terminal-shadow-green);
+}
+
+.page h2 {
+    color: var(--terminal-font-color);
+    text-shadow: var(--terminal-shadow-blue);
+}
+
+.page h3 {
+    color: var(--terminal-text-highlight);
+    text-shadow: var(--terminal-shadow-orange);
+}
+
+.page h4 {
+    color: var(--terminal-blocknote-color);
+    text-shadow: var(--terminal-shadow-purple);
+}
+
+.page h5 {
+    color: var(--terminal-blockquote-color);
+    text-shadow: var(--terminal-shadow-red);
+}
+
+.page h6 {
+    color: var(--terminal-text-table);
+    text-shadow: var(--terminal-shadow-white);
+}
+
+/* Table Styling - Holographic / Code */
+.page table {
+    background-color: var(--terminal-bg-element);
+    color: var(--terminal-text-table);
+    border: var(--terminal-border-solid);
+    width: 100%;
+    column-span: all;
+
+    thead th {
+        background-color: var(--terminal-bg-header);
+        color: var(--terminal-accent-color);
+        border-bottom: 2px solid var(--terminal-accent-color);
+        text-transform: uppercase;
+    }
+
+    tbody tr {
+        border-bottom: var(--terminal-border-subtle);
+
+        &:nth-child(odd) {
+            background-color: var(--terminal-bg-page);
+        }
+    }
+}
+
+/* Inline Code Styling */
+.page code {
+    background-color: var(--terminal-bg-element);
+    color: var(--terminal-blockquote-color);
+    font-family: var(--terminal-font);
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: var(--terminal-border-subtle);
+    font-size: 0.9em;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+/* Blockquotes / Intercepted Transmissions */
+.page blockquote {
+    background-color: var(--terminal-bg-black);
+    color: var(--terminal-blockquote-color);
+    border: 1px solid var(--terminal-blockquote-color);
+    border-left: 8px solid var(--terminal-blockquote-color);
+    font-family: var(--terminal-font);
+    padding: 10px 15px;
+    column-span: all;
+    box-shadow: var(--terminal-shadow-red);
+    margin-bottom: var(--terminal-line-height);
+
+    &:has(.blocknote) {
+        column-span: unset;
+        border-color: var(--terminal-blocknote-color);
+        color: var(--terminal-blocknote-color);
+    }
+}
+
+/* Lists and regular text */
+.page ul,
+.page ol {
+    color: var(--terminal-text-list);
+
+    li::marker {
+        color: var(--terminal-accent-color);
+    }
+}
+
+/* Links */
+.page a {
+    color: var(--terminal-text-link);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--terminal-text-link);
+}
+
+.page .pageNumber {
+    width: 70px;
+    right: 30px;
+    bottom: 10px;
+    background-color: var(--terminal-bg-element);
+    color: var(--terminal-blockquote-color);
+    font-family: var(--terminal-font);
+    padding: 2px 6px;
+    border-radius: 4px;
+    border: var(--terminal-border-subtle);
+    font-size: 1.2em;
+}
+
+.page:nth-child(even) .pageNumber {
+    left: 30px;
+}
+
+/* Custom CSS Rules */
+
+/* `.frontCover` */
+.page:has(.frontCover) {
+
+    h1,
+    h3 {
+        text-align: center;
+    }
+
+    h1 {
+        color: var(--terminal-accent-color);
+    }
+
+    h3 {
+        color: var(--terminal-text-highlight);
+        background-color: var(--terminal-bg-overlay);
+        border-bottom: 0;
+    }
+
+    .footnote {
+        text-align: left;
+        background-color: var(--terminal-bg-overlay);
+        color: var(--terminal-text-highlight);
+        padding: 4px 12px;
+        border: var(--terminal-border-solid);
+        border-radius: 4px;
+        font-family: var(--terminal-font);
+        text-transform: uppercase;
+        box-shadow: var(--terminal-shadow-green-subtle);
+    }
+}
+
+/* `.toc` */
+.page:has(.toc) {
+    &::after {
+        display: inline-block;
+    }
+
+    ul span:last-child {
+        color: var(--terminal-font-color);
+        /* original-color: #c6c1c1; */
+    }
+}
+
+/* .chapterCover */
+.page:has(.chapterCover) .chapterCover {
+    position: absolute;
+}
+
+.page:has(.chapterCover) {
+    h1 {
+        margin-top: 1.55cm;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        display: block;
+        margin-top: 20px;
+    }
+
+    text-align: center;
+    columns: 1;
+}
+
+/* `.backCover` */
+.page:has(.backCover) {
+    .backCover {
+        background-image: unset;
+        background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 510px, rgba(0, 0, 0, 0) 0%), url(https://imgur.com/RSsH9sL.png);
+        background-size: cover;
+        background-position: -120px 0px;
+    }
+
+    h1 {
+        color: var(--terminal-accent-color);
+    }
+
+    hr {
+        background-image: none;
+        border: 0;
+        border-bottom: var(--terminal-border-default);
+        height: 1px;
+    }
+}
+
+/* `::before` Groups */
+.page h2::before,
+.page:has(.frontCover) .footnote p:first-child::before {
+    content: ">>_ ";
+    color: var(--terminal-font-color);
+    font-weight: bold;
+}
+
+/* `::after` Groups */
+.page:has(.frontCover)::after,
+.page:has(.backCover)::after {
+    display: none;
+}

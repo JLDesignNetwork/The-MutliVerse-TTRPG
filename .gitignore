@@ -37,3 +37,4 @@ tsconfig.tsbuildinfo
 # PDF Binary Artifacts
 *.pdf
 books/**/pdf/*.pdf
+.mcp.json

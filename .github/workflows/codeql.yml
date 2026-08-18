@@ -40,16 +40,6 @@ jobs:
         with:
           languages: ${{ matrix.language }}
           build-mode: ${{ matrix.build-mode }}
-          config: |
-            paths-ignore:
-              - 'node_modules/**'
-              - '.next/**'
-              - 'dist/**'
-              - 'build/**'
-            paths:
-              - '.web/**'
-              - '.github/**'
-              - 'package.json'
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3

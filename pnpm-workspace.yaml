@@ -1,5 +1,5 @@
 packages:
-  - '.web'
+  - 'apps/web'
 
 overrides:
   postcss: '>=8.5.23'

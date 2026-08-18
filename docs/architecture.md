@@ -25,7 +25,7 @@ The MultiVerse TTRPG is organized into a modular four-book structure within `doc
 
 ---
 
-## 2. Next.js Web Companion Monorepo (`.web/` or `apps/web/`)
+## 2. Next.js Web Companion Monorepo (`apps/web/`)
 
 The repository operates as a PNPM monorepo hosting both documentation and the digital companion:
 - **Framework:** Next.js 15 (React 19 + TypeScript)

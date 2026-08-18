@@ -64,9 +64,9 @@ The Multiverse TTRPG is a math-less, tag-based d10 dice pool engine designed spe
 * 🐙 **[Call of Cthulhu Matrix](docs/2606/supplements/archive_call_of_cthulhu.md):** Sanity, psychological status manifestations, and cosmic dread.
 * 💻 **[Shadowrun Matrix](docs/2606/supplements/archive_shadowrun.md):** Awakened magic, Matrix decking, and cybernetic rigging.
 
-### 📦 Published Books & Presentation Layer (`books/2606/`)
+### 📦 Published Books & Web Layer (`books/2606/` & `apps/web/`)
 * 📕 **Compiled Rulebooks & HTML/PDF Publications:** `books/2606/` (Staged internally in `.books/2606/` during development; published upon official release).
-* 💻 **Web Application & Character Parser:** Next.js dynamic doc viewer and JSON system library toolchain (staged internally in `.web/`).
+* 💻 **Web Application & Character Parser:** Next.js dynamic doc viewer and JSON system library toolchain (`apps/web/`).
 
 ---
 

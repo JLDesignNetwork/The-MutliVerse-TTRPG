@@ -114,6 +114,22 @@
       "existed_since": "2606.1.0-bs",
       "details": "Create official Git release tag (v2606.1.0-bs) on GitHub marking the completion of JLDN dev standards, agent governance, and generational architecture setup.",
       "created_at": "2026-08-14T16:20:04+02:00"
+    },
+    {
+      "id": "PROJ-TODO-10",
+      "title": "Update JLDN Frontmatter",
+      "status": "pending",
+      "details": "Update the README.md frontmatter to include the new `type` and `platform` classification keys per the updated AGENTS.md schema.",
+      "created_at": "2026-08-19T20:35:54+02:00",
+      "existed_since": "2608.1.0-a"
+    },
+    {
+      "id": "PROJ-TODO-11",
+      "title": "Update JLDN Frontmatter",
+      "status": "pending",
+      "details": "Update the README.md frontmatter to include the new `type` and `platform` classification keys per the updated AGENTS.md schema.",
+      "created_at": "2026-08-19T20:36:19+02:00",
+      "existed_since": "2608.1.0-a"
     }
   ]
 }
